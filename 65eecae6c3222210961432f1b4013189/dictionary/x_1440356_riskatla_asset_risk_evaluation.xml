@@ -14,6 +14,7 @@
         <element label="Asset Details" max_length="32" name="asset_detail0" reference="sys_user" type="reference"/>
         <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
         <element label="Technical Information Security Officer (TISO))" max_length="32" name="technical_information_security_officer" reference="sys_user" type="reference"/>
+        <element label="Testing Commit" max_length="40" name="testing_commit" type="string"/>
         <element choice="1" label="Assessment Progress" max_length="40" name="assessment_progress" type="choice">
             <choice/>
         </element>
