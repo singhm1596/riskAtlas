@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section action="DELETE" caption="Guidance" section_id="b897ccc3c3662210961432f1b40131a0" sys_domain="global" table="x_1440356_riskatla_asset_risk_evaluation" version="3" view="">
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-07-14 10:37:59</sys_created_on>
+            <sys_id>96e8a9e4c3f22210961432f1b40131e7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-07-14 10:37:59</sys_updated_on>
+            <text>&lt;p&gt;&lt;strong&gt;Purpose of Assessment:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;The ARE assessment is mandatory for all in production and in development assets.&lt;/p&gt;</text>
+            <type display_value="Section Separator">443e806c0fd30000b12e6903cfe01281</type>
+        </sys_ui_annotation>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>new_field_1</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-07-14 10:37:59</sys_created_on>
+            <sys_id>d6e8a9e4c3f22210961432f1b40131eb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Guidance" display_value="Guidance" name="x_1440356_riskatla_asset_risk_evaluation" sys_domain="global" view="Default view">b897ccc3c3662210961432f1b40131a0</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-07-14 10:37:59</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-07-14 10:37:59</sys_created_on>
+            <sys_id>dee8a9e4c3f22210961432f1b40131eb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Guidance" display_value="Guidance" name="x_1440356_riskatla_asset_risk_evaluation" sys_domain="global" view="Default view">b897ccc3c3662210961432f1b40131a0</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-07-14 10:37:59</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>96e8a9e4c3f22210961432f1b40131e7</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-07-14 10:37:59</sys_created_on>
+            <sys_id>d6e8a9e4c3f22210961432f1b40131ec</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Guidance" display_value="Guidance" name="x_1440356_riskatla_asset_risk_evaluation" sys_domain="global" view="Default view">b897ccc3c3662210961432f1b40131a0</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-07-14 10:37:59</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_section action="DELETE">
+            <caption>Guidance</caption>
+            <header>false</header>
+            <name>x_1440356_riskatla_asset_risk_evaluation</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-07-09 11:41:49</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b897ccc3c3662210961432f1b40131a0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1440356_riskatla_asset_risk_evaluation</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="RiskAtlas" source="x_1440356_riskatla">65eecae6c3222210961432f1b4013189</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="RiskAtlas">65eecae6c3222210961432f1b4013189</sys_scope>
+            <sys_update_name>sys_ui_section_b897ccc3c3662210961432f1b40131a0</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-07-09 11:41:49</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="RiskAtlas">65eecae6c3222210961432f1b4013189</application>
+        <file_path/>
+        <instance_id>65b722e31b3179906a85eb9b2d4bcbd4</instance_id>
+        <instance_name>dev188006</instance_name>
+        <name>sys_ui_section_b897ccc3c3662210961432f1b40131a0</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="Guidance" section_id="b897ccc3c3662210961432f1b40131a0" sys_domain="global" table="x_1440356_riskatla_asset_risk_evaluation" version="3" view=""><sys_ui_annotation action="INSERT_OR_UPDATE"><is_plain_text>false</is_plain_text><sys_created_by>admin</sys_created_by><sys_created_on>2025-07-14 10:37:59</sys_created_on><sys_id>96e8a9e4c3f22210961432f1b40131e7</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-07-14 10:37:59</sys_updated_on><text>&lt;p&gt;&lt;strong&gt;Purpose of Assessment:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;The ARE assessment is mandatory for all in production and in development assets.&lt;/p&gt;</text><type display_value="Section Separator">443e806c0fd30000b12e6903cfe01281</type></sys_ui_annotation><sys_ui_element action="INSERT_OR_UPDATE"><element>new_field_1</element><position>0</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-07-14 10:37:59</sys_created_on><sys_id>d6e8a9e4c3f22210961432f1b40131eb</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Guidance" display_value="Guidance" name="x_1440356_riskatla_asset_risk_evaluation" sys_domain="global" view="Default view">b897ccc3c3662210961432f1b40131a0</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-07-14 10:37:59</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.split</element><position>1</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-07-14 10:37:59</sys_created_on><sys_id>dee8a9e4c3f22210961432f1b40131eb</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Guidance" display_value="Guidance" name="x_1440356_riskatla_asset_risk_evaluation" sys_domain="global" view="Default view">b897ccc3c3662210961432f1b40131a0</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-07-14 10:37:59</sys_updated_on><sys_user/><type>.split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>96e8a9e4c3f22210961432f1b40131e7</element><position>2</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-07-14 10:37:59</sys_created_on><sys_id>d6e8a9e4c3f22210961432f1b40131ec</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Guidance" display_value="Guidance" name="x_1440356_riskatla_asset_risk_evaluation" sys_domain="global" view="Default view">b897ccc3c3662210961432f1b40131a0</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-07-14 10:37:59</sys_updated_on><sys_user/><type>annotation</type></sys_ui_element><sys_ui_section action="INSERT_OR_UPDATE"><caption>Guidance</caption><header>false</header><name>x_1440356_riskatla_asset_risk_evaluation</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-07-09 11:41:49</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>b897ccc3c3662210961432f1b40131a0</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_1440356_riskatla_asset_risk_evaluation</sys_name><sys_overrides/><sys_package display_value="RiskAtlas" source="x_1440356_riskatla">65eecae6c3222210961432f1b4013189</sys_package><sys_policy/><sys_scope display_value="RiskAtlas">65eecae6c3222210961432f1b4013189</sys_scope><sys_update_name>sys_ui_section_b897ccc3c3662210961432f1b40131a0</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-07-09 11:41:49</sys_updated_on><sys_user/><title>false</title><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+        <payload_hash>1778488772</payload_hash>
+        <record_name>Asset Risk Evaluation</record_name>
+        <reverted_from/>
+        <source>e9ee82aac3222210961432f1b4013114</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-14 10:37:59</sys_created_on>
+        <sys_id>5ae8a9e4c3f22210961432f1b40131ee</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19808834dd80000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-14 10:37:59</sys_updated_on>
+        <type>Form Layout</type>
+        <update_guid>12e8a9e4b8f2221048d1f3094175dcee</update_guid>
+        <update_guid_history>12e8a9e4b8f2221048d1f3094175dcee:1778488772,51c8e5e4a3f2221048019f4c5ec3e1a4:2117294430,1758ada40bf2221058ab909997af649c:980467526,e737a56464f2221084ea398a8f878b6c:917084468,ece6ad242ef222107ba9e9db639b6aa4:1596662963,6f666524b8f22210d0294362b58b7610:647403409,cf16ade020f2221049ca317dd6ffb966:219495529,b4d5e5e00cf222104b599d67ce31f2ed:-1192073525,7022adac1bb22210fa2754c20e55b260:-1759977676,68c1e5ac28b2221024f88884765f50a3:2056928294,0a7161ac76b2221013227e588a8aea66:-1155396637,cd9700078f662210ca9b1568942c6104:2056928294</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-14 10:38:38</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_section">sys_ui_section</sys_db_object>
+        <sys_id>0003a9b8c84348928009c29fbaa9b341</sys_id>
+        <sys_metadata>b897ccc3c3662210961432f1b40131a0</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Guidance</sys_name>
+        <sys_package display_value="RiskAtlas" source="x_1440356_riskatla">65eecae6c3222210961432f1b4013189</sys_package>
+        <sys_parent display_value="Asset Risk Evaluation">5c2f0aaac3222210961432f1b401319f</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="RiskAtlas">65eecae6c3222210961432f1b4013189</sys_scope>
+        <sys_scope_delete display_value="">2c18b5ef8d03482ca085b169568ec0c9</sys_scope_delete>
+        <sys_update_name>sys_ui_section_b897ccc3c3662210961432f1b40131a0</sys_update_name>
+        <sys_update_version display_value="sys_ui_section_b897ccc3c3662210961432f1b40131a0">5ae8a9e4c3f22210961432f1b40131ee</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-14 10:38:38</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

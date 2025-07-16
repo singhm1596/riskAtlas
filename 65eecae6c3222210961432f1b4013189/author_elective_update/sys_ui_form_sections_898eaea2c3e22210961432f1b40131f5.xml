@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections action="DELETE" form_id="898eaea2c3e22210961432f1b40131f5" sys_domain="global" table="x_1440356_riskatla_asset_risk_evaluation" version="3">
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_1440356_riskatla_asset_risk_evaluation</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-07-08 10:34:14</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>898eaea2c3e22210961432f1b40131f5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1440356_riskatla_asset_risk_evaluation</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="RiskAtlas" source="x_1440356_riskatla">65eecae6c3222210961432f1b4013189</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="RiskAtlas">65eecae6c3222210961432f1b4013189</sys_scope>
+            <sys_update_name>sys_ui_form_sections_898eaea2c3e22210961432f1b40131f5</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-07-08 10:34:14</sys_updated_on>
+            <sys_user/>
+            <view display_value="">3c1a9e2ac3622210961432f1b401311e</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="RiskAtlas">65eecae6c3222210961432f1b4013189</application>
+        <file_path/>
+        <instance_id>65b722e31b3179906a85eb9b2d4bcbd4</instance_id>
+        <instance_name>dev188006</instance_name>
+        <name>sys_ui_form_sections_898eaea2c3e22210961432f1b40131f5</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_form_sections form_id="898eaea2c3e22210961432f1b40131f5" sys_domain="global" table="x_1440356_riskatla_asset_risk_evaluation" version="3"><sys_ui_form action="INSERT_OR_UPDATE"><name>x_1440356_riskatla_asset_risk_evaluation</name><roles/><sys_class_name>sys_ui_form</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-07-08 10:34:14</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>898eaea2c3e22210961432f1b40131f5</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_1440356_riskatla_asset_risk_evaluation</sys_name><sys_overrides/><sys_package display_value="RiskAtlas" source="x_1440356_riskatla">65eecae6c3222210961432f1b4013189</sys_package><sys_policy/><sys_scope display_value="RiskAtlas">65eecae6c3222210961432f1b4013189</sys_scope><sys_update_name>sys_ui_form_sections_898eaea2c3e22210961432f1b40131f5</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-07-08 10:34:14</sys_updated_on><sys_user/><view display_value="">3c1a9e2ac3622210961432f1b401311e</view><view_name/></sys_ui_form></sys_ui_form_sections></record_update>]]></payload>
+        <payload_hash>1865429752</payload_hash>
+        <record_name>Asset Risk Evaluation</record_name>
+        <reverted_from/>
+        <source>e9ee82aac3222210961432f1b4013114</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-09 11:27:21</sys_created_on>
+        <sys_id>384408cfc3262210961432f1b40131b0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>197eef0b25b0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-09 11:27:21</sys_updated_on>
+        <type>Form Sections</type>
+        <update_guid>fc4408cf47262210d1e39237b6c2e8af</update_guid>
+        <update_guid_history>fc4408cf47262210d1e39237b6c2e8af:1865429752,79a3888f0d26221065b68e741efb8c0f:48045790,35a3488f4426221093ba0bd8ff69dcf8:-2084853188,b830766691e22210d519c1e77b2be13a:590898935,5bff226603e2221069922027daf83e3e:-1019046908,c8bf6a265ee22210bd30ccc7d5703e0a:945890877,c0bf2a2667e22210ea4589f7651da0ff:1275746172,c74f222681e22210513c430867955c56:-884791544,f70feae210e22210203a096311b826bf:945890877,a7cea6e208e22210796f6cb8c869054b:857225885,058eaea2a8e222100fdd8436b41569fb:233030217,098eaea286e222105aa9e630c2fa45f7:945890877</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-09 11:27:21</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_form">sys_ui_form</sys_db_object>
+        <sys_id>a11a7eeacf4a4a1c9b580c55f7bd1289</sys_id>
+        <sys_metadata>898eaea2c3e22210961432f1b40131f5</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1440356_riskatla_asset_risk_evaluation</sys_name>
+        <sys_package display_value="RiskAtlas" source="x_1440356_riskatla">65eecae6c3222210961432f1b4013189</sys_package>
+        <sys_parent display_value="Asset Risk Evaluation">5c2f0aaac3222210961432f1b401319f</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="RiskAtlas">65eecae6c3222210961432f1b4013189</sys_scope>
+        <sys_scope_delete display_value="">2c18b5ef8d03482ca085b169568ec0c9</sys_scope_delete>
+        <sys_update_name>sys_ui_form_sections_898eaea2c3e22210961432f1b40131f5</sys_update_name>
+        <sys_update_version display_value="sys_ui_form_sections_898eaea2c3e22210961432f1b40131f5">384408cfc3262210961432f1b40131b0</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-09 11:27:21</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

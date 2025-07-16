@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="9717da26c3622210961432f1b4013106" sys_domain="global" table="x_1440356_riskatla_asset_risk_evaluation" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-07-08 09:02:56</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6b99162ac3622210961432f1b40131fb</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1440356_riskatla_asset_risk_evaluation" name="x_1440356_riskatla_asset_risk_evaluation" sys_domain="global" view="Default view">9717da26c3622210961432f1b4013106</sys_ui_form>
+            <sys_ui_section caption="Assessment Information" display_value="Assessment Information" name="x_1440356_riskatla_asset_risk_evaluation" sys_domain="global" view="Default view">a799162ac3622210961432f1b40131d9</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-07-08 10:26:35</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-07-09 11:39:53</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e82784c3c3662210961432f1b40131d9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1440356_riskatla_asset_risk_evaluation" name="x_1440356_riskatla_asset_risk_evaluation" sys_domain="global" view="Default view">9717da26c3622210961432f1b4013106</sys_ui_form>
+            <sys_ui_section caption="Asset Details" display_value="Asset Details" name="x_1440356_riskatla_asset_risk_evaluation" sys_domain="global" view="Default view">e42784c3c3662210961432f1b40131cb</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-07-09 11:39:53</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-07-09 11:41:49</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>7097ccc3c3662210961432f1b40131a3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1440356_riskatla_asset_risk_evaluation" name="x_1440356_riskatla_asset_risk_evaluation" sys_domain="global" view="Default view">9717da26c3622210961432f1b4013106</sys_ui_form>
+            <sys_ui_section caption="Role Holders" display_value="Role Holders" name="x_1440356_riskatla_asset_risk_evaluation" sys_domain="global" view="Default view">f897ccc3c3662210961432f1b401319f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-07-09 11:41:49</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_1440356_riskatla_asset_risk_evaluation</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-07-08 08:52:00</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9717da26c3622210961432f1b4013106</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1440356_riskatla_asset_risk_evaluation</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="RiskAtlas" source="x_1440356_riskatla">65eecae6c3222210961432f1b4013189</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="RiskAtlas">65eecae6c3222210961432f1b4013189</sys_scope>
+            <sys_update_name>sys_ui_form_sections_9717da26c3622210961432f1b4013106</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-07-08 08:52:00</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

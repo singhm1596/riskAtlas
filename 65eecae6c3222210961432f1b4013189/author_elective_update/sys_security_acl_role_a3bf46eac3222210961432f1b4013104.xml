@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="DELETE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-08 08:19:48</sys_created_on>
+        <sys_id>a3bf46eac3222210961432f1b4013104</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>x_1440356_riskatla_asset_risk_evaluation.x_1440356_riskatla.are_submitter</sys_name>
+        <sys_package display_value="RiskAtlas" source="x_1440356_riskatla">65eecae6c3222210961432f1b4013189</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="RiskAtlas">65eecae6c3222210961432f1b4013189</sys_scope>
+        <sys_security_acl display_value="x_1440356_riskatla_asset_risk_evaluation">2fbf06eac3222210961432f1b40131fe</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_a3bf46eac3222210961432f1b4013104</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-08 08:22:44</sys_updated_on>
+        <sys_user_role display_value="x_1440356_riskatla.are_submitter" name="x_1440356_riskatla.are_submitter">9a605eeac3222210961432f1b40131a2</sys_user_role>
+    </sys_security_acl_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="RiskAtlas">65eecae6c3222210961432f1b4013189</application>
+        <file_path/>
+        <instance_id>65b722e31b3179906a85eb9b2d4bcbd4</instance_id>
+        <instance_name>dev188006</instance_name>
+        <name>sys_security_acl_role_a3bf46eac3222210961432f1b4013104</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-07-08 08:19:48</sys_created_on><sys_id>a3bf46eac3222210961432f1b4013104</sys_id><sys_mod_count>1</sys_mod_count><sys_name>x_1440356_riskatla_asset_risk_evaluation.x_1440356_riskatla.are_submitter</sys_name><sys_package display_value="RiskAtlas" source="x_1440356_riskatla">65eecae6c3222210961432f1b4013189</sys_package><sys_policy/><sys_scope display_value="RiskAtlas">65eecae6c3222210961432f1b4013189</sys_scope><sys_security_acl display_value="x_1440356_riskatla_asset_risk_evaluation">2fbf06eac3222210961432f1b40131fe</sys_security_acl><sys_update_name>sys_security_acl_role_a3bf46eac3222210961432f1b4013104</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-07-08 08:22:44</sys_updated_on><sys_user_role display_value="x_1440356_riskatla.are_submitter" name="x_1440356_riskatla.are_submitter">9a605eeac3222210961432f1b40131a2</sys_user_role></sys_security_acl_role></record_update>]]></payload>
+        <payload_hash>-1764770104</payload_hash>
+        <record_name>x_1440356_riskatla_asset_risk_evaluation.x_1440356_riskatla.are_submitter</record_name>
+        <reverted_from/>
+        <source>e9ee82aac3222210961432f1b4013114</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-08 08:22:44</sys_created_on>
+        <sys_id>7e60162ec3222210961432f1b4013139</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>197e92153630000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-08 08:22:44</sys_updated_on>
+        <type>Access Roles</type>
+        <update_guid>3660162e482222104bf3b1abbcf68e39</update_guid>
+        <update_guid_history>3660162e482222104bf3b1abbcf68e39:-1764770104,2bbf46ea2c22221023c00be78f675114:-1218062556</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="x_1440356_riskatla_asset_risk_evaluation.x_1440356_riskatla.are_submitter">4662bde0c3362210961432f1b40131ec</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-14 11:19:29</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
+        <sys_id>0795fda966f54d1d9e02798f9e846a99</sys_id>
+        <sys_metadata>a3bf46eac3222210961432f1b4013104</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1440356_riskatla_asset_risk_evaluation.x_1440356_riskatla.are_submitter</sys_name>
+        <sys_package display_value="RiskAtlas" source="x_1440356_riskatla">65eecae6c3222210961432f1b4013189</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="RiskAtlas">65eecae6c3222210961432f1b4013189</sys_scope>
+        <sys_scope_delete display_value="">2c18b5ef8d03482ca085b169568ec0c9</sys_scope_delete>
+        <sys_update_name>sys_security_acl_role_a3bf46eac3222210961432f1b4013104</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_role_a3bf46eac3222210961432f1b4013104">7e60162ec3222210961432f1b4013139</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-14 11:19:29</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
