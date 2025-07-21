@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Confidentiality Impact Questions" section_id="eab4342183ba6e109cc1a730ceaad3ac" sys_domain="global" table="x_1440356_riskatla_asset_risk_evaluation" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_string_2</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-07-18 08:34:55</sys_created_on>
+            <sys_id>a213b53983b2ee109cc1a730ceaad3f9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Confidentiality Impact Questions" display_value="Confidentiality Impact Questions" name="x_1440356_riskatla_asset_risk_evaluation" sys_domain="global" view="Default view">eab4342183ba6e109cc1a730ceaad3ac</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-07-18 08:34:55</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-07-18 08:34:55</sys_created_on>
+            <sys_id>2a13b53983b2ee109cc1a730ceaad3f9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Confidentiality Impact Questions" display_value="Confidentiality Impact Questions" name="x_1440356_riskatla_asset_risk_evaluation" sys_domain="global" view="Default view">eab4342183ba6e109cc1a730ceaad3ac</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-07-18 08:34:55</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>confidentiality_reputional_impact</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-07-18 08:34:55</sys_created_on>
+            <sys_id>ae13b53983b2ee109cc1a730ceaad3f9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Confidentiality Impact Questions" display_value="Confidentiality Impact Questions" name="x_1440356_riskatla_asset_risk_evaluation" sys_domain="global" view="Default view">eab4342183ba6e109cc1a730ceaad3ac</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-07-18 08:34:55</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>confidentiality_financial_impact</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-07-18 08:34:55</sys_created_on>
+            <sys_id>2613b53983b2ee109cc1a730ceaad3fa</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Confidentiality Impact Questions" display_value="Confidentiality Impact Questions" name="x_1440356_riskatla_asset_risk_evaluation" sys_domain="global" view="Default view">eab4342183ba6e109cc1a730ceaad3ac</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-07-18 08:34:55</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>confidentiality_regulatory_impact</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-07-18 08:34:55</sys_created_on>
+            <sys_id>aa13b53983b2ee109cc1a730ceaad3fa</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Confidentiality Impact Questions" display_value="Confidentiality Impact Questions" name="x_1440356_riskatla_asset_risk_evaluation" sys_domain="global" view="Default view">eab4342183ba6e109cc1a730ceaad3ac</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-07-18 08:34:55</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>confidentiality_client_impact</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-07-18 08:34:55</sys_created_on>
+            <sys_id>2213b53983b2ee109cc1a730ceaad3fb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Confidentiality Impact Questions" display_value="Confidentiality Impact Questions" name="x_1440356_riskatla_asset_risk_evaluation" sys_domain="global" view="Default view">eab4342183ba6e109cc1a730ceaad3ac</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-07-18 08:34:55</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>confidentiality_market_impact</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-07-18 08:34:55</sys_created_on>
+            <sys_id>a613b53983b2ee109cc1a730ceaad3fb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Confidentiality Impact Questions" display_value="Confidentiality Impact Questions" name="x_1440356_riskatla_asset_risk_evaluation" sys_domain="global" view="Default view">eab4342183ba6e109cc1a730ceaad3ac</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-07-18 08:34:55</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-07-18 08:34:55</sys_created_on>
+            <sys_id>2e13b53983b2ee109cc1a730ceaad3fb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Confidentiality Impact Questions" display_value="Confidentiality Impact Questions" name="x_1440356_riskatla_asset_risk_evaluation" sys_domain="global" view="Default view">eab4342183ba6e109cc1a730ceaad3ac</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-07-18 08:34:55</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Confidentiality Impact Questions</caption>
+            <header>false</header>
+            <name>x_1440356_riskatla_asset_risk_evaluation</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-07-17 09:23:55</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>eab4342183ba6e109cc1a730ceaad3ac</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1440356_riskatla_asset_risk_evaluation</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="RiskAtlas" source="x_1440356_riskatla">65eecae6c3222210961432f1b4013189</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="RiskAtlas">65eecae6c3222210961432f1b4013189</sys_scope>
+            <sys_update_name>sys_ui_section_eab4342183ba6e109cc1a730ceaad3ac</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-07-17 09:23:55</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

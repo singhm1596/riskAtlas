@@ -1,46 +1,211 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="5c2f0aaac3222210961432f1b401319f" label="Asset Risk Evaluation" max_length="40" name="x_1440356_riskatla_asset_risk_evaluation" type="collection">
+        <element choice="1" label="Integrity Reputational Impact" max_length="40" name="integrity_reputational_impact" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="High" sequence="2" value="High"/>
+                <element inactive_on_update="false" label="Medium" sequence="3" value="Medium"/>
+                <element inactive_on_update="false" label="Low" sequence="4" value="Low"/>
+                <element inactive_on_update="false" label="Acute" sequence="0" value="Acute"/>
+                <element inactive_on_update="false" label="Severe" sequence="1" value="Severe"/>
+            </choice>
+        </element>
+        <element label="Describe the most representative scenerio/situation for Availability Breach" max_length="4000" name="describe_the_most_representative_scenerio_situation_for_availability_breach" type="string"/>
+        <element choice="3" choice_field="confidentiality_criticality" choice_table="x_1440356_riskatla_asset_risk_evaluation" label="Integrity Criticality" max_length="40" name="integrity_criticality" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Medium" sequence="1" value="medium"/>
+                <element inactive_on_update="false" label="Low" sequence="2" value="low"/>
+                <element inactive_on_update="false" label="High" sequence="0" value="high"/>
+            </choice>
+        </element>
+        <element label="Information Security Risk Analyst (ISRA)" max_length="32" name="information_security_risk_analyst_isra" reference="sys_user" type="reference"/>
+        <element choice="1" label="Availability Criticality" max_length="40" name="availability_criticality" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="High" sequence="1" value="high"/>
+                <element inactive_on_update="false" label="Low" sequence="3" value="low"/>
+                <element inactive_on_update="false" label="Medium" sequence="2" value="medium"/>
+            </choice>
+        </element>
+        <element label="Due Date" max_length="40" name="due_date" type="glide_date"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" read_only="true" type="string"/>
+        <element choice="1" label="Availability Financial Impact" max_length="40" name="availability_financial_impact" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Acute" sequence="0" value="Acute"/>
+                <element inactive_on_update="false" label="Severe" sequence="1" value="Severe"/>
+                <element inactive_on_update="false" label="High" sequence="2" value="High"/>
+                <element inactive_on_update="false" label="Medium" sequence="3" value="Medium"/>
+                <element inactive_on_update="false" label="Low" sequence="4" value="Low"/>
+            </choice>
+        </element>
         <element choice="1" label="Information Classification" max_length="40" name="information_classification" type="choice">
             <choice/>
         </element>
-        <element choice="1" label="Integrity Criticality" max_length="40" name="integrity_criticality" type="choice">
+        <element label="IT Asset Owner (ITAO)" max_length="32" name="it_asset_owner_itao" reference="sys_user" type="reference"/>
+        <element label="Technical Information Security Officer (TISO))" max_length="32" name="technical_information_security_officer" reference="sys_user" type="reference"/>
+        <element function_definition="&lt;!DOCTYPE html&gt; &lt;html&gt; &lt;head&gt;     &lt;title&gt;Assessment Task Table&lt;/title&gt;     &lt;style&gt;         table {             border-collapse: collapse;             width: 70%;             margin: 20px auto;         }         th, td {             border: 1px solid #333;             padding: 10px;             text-align: center;         }         th {             background-color: #f2f2f2;         }     &lt;/style&gt; &lt;/head&gt; &lt;body&gt;     &lt;table&gt;         &lt;tr&gt;             &lt;th&gt;Tasks&lt;/th&gt;             &lt;th&gt;ISO&lt;/th&gt;             &lt;th&gt;TISO&lt;/th&gt;             &lt;th&gt;ITAO&lt;/th&gt;             &lt;th&gt;ISRA&lt;/th&gt;         &lt;/tr&gt;         &lt;tr&gt;             &lt;td&gt;Start Assessment&lt;/td&gt;             &lt;td&gt;&lt;/td&gt;             &lt;td&gt;&lt;/td&gt;             &lt;td&gt;&lt;/td&gt;             &lt;td&gt;&lt;/td&gt;         &lt;/tr&gt;         &lt;tr&gt;             &lt;td&gt;Complete Assessment&lt;/td&gt;             &lt;td&gt;&lt;/td&gt;             &lt;td&gt;&lt;/td&gt;             &lt;td&gt;&lt;/td&gt;             &lt;td&gt;&lt;/td&gt;         &lt;/tr&gt;         &lt;tr&gt;             &lt;td&gt;Submit Assessment&lt;/td&gt;             &lt;td&gt;&lt;/td&gt;             &lt;td&gt;&lt;/td&gt;             &lt;td&gt;&lt;/td&gt;             &lt;td&gt;&lt;/td&gt;         &lt;/tr&gt;         &lt;tr&gt;             &lt;td&gt;Review Assessment&lt;/td&gt;             &lt;td&gt;&lt;/td&gt;             &lt;td&gt;&lt;/td&gt;             &lt;td&gt;&lt;/td&gt;             &lt;td&gt;&lt;/td&gt;         &lt;/tr&gt;         &lt;tr&gt;             &lt;td&gt;Approve Assessment&lt;/td&gt;             &lt;td&gt;&lt;/td&gt;             &lt;td&gt;&lt;/td&gt;             &lt;td&gt;&lt;/td&gt;             &lt;td&gt;&lt;/td&gt;         &lt;/tr&gt;     &lt;/table&gt; &lt;/body&gt; &lt;/html&gt;" label="Guidance" max_length="65536" name="tes0" read_only="true" type="html"/>
+        <element label="Sign-Off Assessment Comments" max_length="255" name="sign_off_assessment_comments" type="string_full_utf8"/>
+        <element attributes="edge_encryption_enabled=true" label="Describe the most representative scenerio/situation for Integrity Breach" max_length="4000" name="u_string_3" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Describe the most representative scenerio/situation for Confidentiality Breach" max_length="4000" name="u_string_2" type="string"/>
+        <element choice="1" choice_field="integrity_regulatory_impact" choice_table="x_1440356_riskatla_asset_risk_evaluation" label="Availability Market Impact" max_length="40" name="availability_market_impact" type="choice">
             <choice/>
         </element>
-        <element label="Due Date" max_length="40" name="due_date" type="glide_date"/>
-        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
-        <element label="IT Asset Owner (ITAO)" max_length="32" name="it_asset_owner_itao" reference="sys_user" type="reference"/>
-        <element label="Information Security Risk Analyst (ISRA)" max_length="32" name="information_security_risk_analyst_isra" reference="sys_user" type="reference"/>
         <element label="Reviewer Assessment Comments" max_length="255" name="reviewer_assessment_comments" type="string_full_utf8"/>
-        <element label="Asset Details" max_length="32" name="asset_detail0" reference="sys_user" type="reference"/>
-        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
-        <element label="Technical Information Security Officer (TISO))" max_length="32" name="technical_information_security_officer" reference="sys_user" type="reference"/>
         <element label="Testing Commit" max_length="40" name="testing_commit" type="string"/>
+        <element label="Information Security Offficer (ISO)" max_length="32" name="information_security_offficer_iso" reference="sys_user" type="reference"/>
+        <element choice="3" default="0" label="Assessment Status" max_length="40" name="assessment_status" read_only="true" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Review Pending" sequence="2" value="3"/>
+                <element inactive_on_update="false" label="Sign-Off Pending" sequence="3" value="4"/>
+                <element inactive_on_update="false" label="Started" sequence="0" value="0"/>
+                <element inactive_on_update="false" label="Finished" sequence="4" value="5"/>
+                <element inactive_on_update="false" label="In Progress" sequence="1" value="1"/>
+            </choice>
+        </element>
+        <element label="Asset Details" max_length="32" name="asset_detail0" reference="sys_user" type="reference"/>
         <element choice="1" label="Assessment Progress" max_length="40" name="assessment_progress" type="choice">
             <choice/>
         </element>
-        <element label="test" max_length="65536" name="test" type="html"/>
-        <element function_definition="&lt;!DOCTYPE html&gt; &lt;html&gt; &lt;head&gt;     &lt;title&gt;Assessment Task Table&lt;/title&gt;     &lt;style&gt;         table {             border-collapse: collapse;             width: 70%;             margin: 20px auto;         }         th, td {             border: 1px solid #333;             padding: 10px;             text-align: center;         }         th {             background-color: #f2f2f2;         }     &lt;/style&gt; &lt;/head&gt; &lt;body&gt;     &lt;table&gt;         &lt;tr&gt;             &lt;th&gt;Tasks&lt;/th&gt;             &lt;th&gt;ISO&lt;/th&gt;             &lt;th&gt;TISO&lt;/th&gt;             &lt;th&gt;ITAO&lt;/th&gt;             &lt;th&gt;ISRA&lt;/th&gt;         &lt;/tr&gt;         &lt;tr&gt;             &lt;td&gt;Start Assessment&lt;/td&gt;             &lt;td&gt;&lt;/td&gt;             &lt;td&gt;&lt;/td&gt;             &lt;td&gt;&lt;/td&gt;             &lt;td&gt;&lt;/td&gt;         &lt;/tr&gt;         &lt;tr&gt;             &lt;td&gt;Complete Assessment&lt;/td&gt;             &lt;td&gt;&lt;/td&gt;             &lt;td&gt;&lt;/td&gt;             &lt;td&gt;&lt;/td&gt;             &lt;td&gt;&lt;/td&gt;         &lt;/tr&gt;         &lt;tr&gt;             &lt;td&gt;Submit Assessment&lt;/td&gt;             &lt;td&gt;&lt;/td&gt;             &lt;td&gt;&lt;/td&gt;             &lt;td&gt;&lt;/td&gt;             &lt;td&gt;&lt;/td&gt;         &lt;/tr&gt;         &lt;tr&gt;             &lt;td&gt;Review Assessment&lt;/td&gt;             &lt;td&gt;&lt;/td&gt;             &lt;td&gt;&lt;/td&gt;             &lt;td&gt;&lt;/td&gt;             &lt;td&gt;&lt;/td&gt;         &lt;/tr&gt;         &lt;tr&gt;             &lt;td&gt;Approve Assessment&lt;/td&gt;             &lt;td&gt;&lt;/td&gt;             &lt;td&gt;&lt;/td&gt;             &lt;td&gt;&lt;/td&gt;             &lt;td&gt;&lt;/td&gt;         &lt;/tr&gt;     &lt;/table&gt; &lt;/body&gt; &lt;/html&gt;" label="Guidance" max_length="65536" name="tes0" read_only="true" type="html"/>
-        <element label="Information Security Offficer (ISO)" max_length="32" name="information_security_offficer_iso" reference="sys_user" type="reference"/>
         <element default="&amp;lt;!DOCTYPE html&amp;gt; &amp;lt;html&amp;gt; &amp;lt;head&amp;gt;     &amp;lt;title&amp;gt;Assessment Task Table&amp;lt;/title&amp;gt;     &amp;lt;style&amp;gt;         table {             border-collapse: collapse;             width: 70%;             margin: 20px auto;             border: 2px solid #000; /* Outer border */         }         th, td {             border: 1px solid #000; /* Cell borders */             padding: 10px;             text-align: center;         }         th {             background-color: #f2f2f2;         }     &amp;lt;/style&amp;gt; &amp;lt;/head&amp;gt; &amp;lt;body&amp;gt;     &amp;lt;table&amp;gt;         &amp;lt;tr&amp;gt;             &amp;lt;th&amp;gt;Tasks&amp;lt;/th&amp;gt;             &amp;lt;th&amp;gt;ISO&amp;lt;/th&amp;gt;             &amp;lt;th&amp;gt;TISO&amp;lt;/th&amp;gt;             &amp;lt;th&amp;gt;ITAO&amp;lt;/th&amp;gt;             &amp;lt;th&amp;gt;ISRA&amp;lt;/th&amp;gt;         &amp;lt;/tr&amp;gt;         &amp;lt;tr&amp;gt;             &amp;lt;td&amp;gt;Start Assessment&amp;lt;/td&amp;gt;             &amp;lt;td&amp;gt;&amp;lt;/td&amp;gt;             &amp;lt;td&amp;gt;&amp;lt;/td&amp;gt;             &amp;lt;td&amp;gt;&amp;lt;/td&amp;gt;             &amp;lt;td&amp;gt;&amp;lt;/td&amp;gt;         &amp;lt;/tr&amp;gt;         &amp;lt;tr&amp;gt;             &amp;lt;td&amp;gt;Complete Assessment&amp;lt;/td&amp;gt;             &amp;lt;td&amp;gt;&amp;lt;/td&amp;gt;             &amp;lt;td&amp;gt;&amp;lt;/td&amp;gt;             &amp;lt;td&amp;gt;&amp;lt;/td&amp;gt;             &amp;lt;td&amp;gt;&amp;lt;/td&amp;gt;         &amp;lt;/tr&amp;gt;         &amp;lt;tr&amp;gt;             &amp;lt;td&amp;gt;Submit Assessment&amp;lt;/td&amp;gt;             &amp;lt;td&amp;gt;&amp;lt;/td&amp;gt;             &amp;lt;td&amp;gt;&amp;lt;/td&amp;gt;             &amp;lt;td&amp;gt;&amp;lt;/td&amp;gt;             &amp;lt;td&amp;gt;&amp;lt;/td&amp;gt;         &amp;lt;/tr&amp;gt;         &amp;lt;tr&amp;gt;             &amp;lt;td&amp;gt;Review Assessment&amp;lt;/td&amp;gt;             &amp;lt;td&amp;gt;&amp;lt;/td&amp;gt;             &amp;lt;td&amp;gt;&amp;lt;/td&amp;gt;             &amp;lt;td&amp;gt;&amp;lt;/td&amp;gt;             &amp;lt;td&amp;gt;&amp;lt;/td&amp;gt;         &amp;lt;/tr&amp;gt;         &amp;lt;tr&amp;gt;             &amp;lt;td&amp;gt;Approve Assessment&amp;lt;/td&amp;gt;             &amp;lt;td&amp;gt;&amp;lt;/td&amp;gt;             &amp;lt;td&amp;gt;&amp;lt;/td&amp;gt;             &amp;lt;td&amp;gt;&amp;lt;/td&amp;gt;             &amp;lt;td&amp;gt;&amp;lt;/td&amp;gt;         &amp;lt;/tr&amp;gt;     &amp;lt;/table&amp;gt; &amp;lt;/body&amp;gt; &amp;lt;/html&amp;gt;" function_definition="&lt;!DOCTYPE html&gt; &lt;html&gt; &lt;head&gt;     &lt;title&gt;Assessment Task Table&lt;/title&gt;     &lt;style&gt;         table {             border-collapse: collapse;             width: 70%;             margin: 20px auto;             border: 2px solid #000; /* Outer border */         }         th, td {             border: 1px solid #000; /* Cell borders */             padding: 10px;             text-align: center;         }         th {             background-color: #f2f2f2;         }     &lt;/style&gt; &lt;/head&gt; &lt;body&gt;     &lt;table&gt;         &lt;tr&gt;             &lt;th&gt;Tasks&lt;/th&gt;             &lt;th&gt;ISO&lt;/th&gt;             &lt;th&gt;TISO&lt;/th&gt;             &lt;th&gt;ITAO&lt;/th&gt;             &lt;th&gt;ISRA&lt;/th&gt;         &lt;/tr&gt;         &lt;tr&gt;             &lt;td&gt;Start Assessment&lt;/td&gt;             &lt;td&gt;&lt;/td&gt;             &lt;td&gt;&lt;/td&gt;             &lt;td&gt;&lt;/td&gt;             &lt;td&gt;&lt;/td&gt;         &lt;/tr&gt;         &lt;tr&gt;             &lt;td&gt;Complete Assessment&lt;/td&gt;             &lt;td&gt;&lt;/td&gt;             &lt;td&gt;&lt;/td&gt;             &lt;td&gt;&lt;/td&gt;             &lt;td&gt;&lt;/td&gt;         &lt;/tr&gt;         &lt;tr&gt;             &lt;td&gt;Submit Assessment&lt;/td&gt;             &lt;td&gt;&lt;/td&gt;             &lt;td&gt;&lt;/td&gt;             &lt;td&gt;&lt;/td&gt;             &lt;td&gt;&lt;/td&gt;         &lt;/tr&gt;         &lt;tr&gt;             &lt;td&gt;Review Assessment&lt;/td&gt;             &lt;td&gt;&lt;/td&gt;             &lt;td&gt;&lt;/td&gt;             &lt;td&gt;&lt;/td&gt;             &lt;td&gt;&lt;/td&gt;         &lt;/tr&gt;         &lt;tr&gt;             &lt;td&gt;Approve Assessment&lt;/td&gt;             &lt;td&gt;&lt;/td&gt;             &lt;td&gt;&lt;/td&gt;             &lt;td&gt;&lt;/td&gt;             &lt;td&gt;&lt;/td&gt;         &lt;/tr&gt;     &lt;/table&gt; &lt;/body&gt; &lt;/html&gt;" label="Guidance" max_length="65536" name="new_field_1" read_only="true" type="translated_html"/>
-        <element choice="1" label="Confidentiality Criticality" max_length="40" name="confidentiality_criticality" type="choice">
+        <element default="Purpose of Assessment" function_definition="Purpose of Assessment" label="Purpose of Assessment" max_length="255" name="purpose_of_assessment" read_only="true" type="string_full_utf8"/>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <element label="test" max_length="65536" name="test" type="html"/>
+        <element choice="3" label="Confidentiality Criticality" max_length="40" name="confidentiality_criticality" type="choice">
             <choice>
-                <element inactive_on_update="false" label="Low" sequence="2" value="Low"/>
                 <element inactive_on_update="false" label="Medium" sequence="1" value="Medium"/>
                 <element inactive_on_update="false" label="High" sequence="0" value="High"/>
+                <element inactive_on_update="false" label="Low" sequence="2" value="Low"/>
             </choice>
         </element>
-        <element label="Sign-Off Assessment Comments" max_length="255" name="sign_off_assessment_comments" type="string_full_utf8"/>
-        <element choice="1" label="Assessment Status" max_length="40" name="assessment_status" type="choice">
+        <element attributes="edge_encryption_enabled=true" label="Describe the most representative scenerio/situation for Confidentiality Breach" max_length="255" name="u_string_full_utf8_1" type="string_full_utf8"/>
+        <element choice="1" label="Confidentiality Regulatory Impact" max_length="40" name="confidentiality_regulatory_impact" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Low" sequence="4" value="Low"/>
+                <element inactive_on_update="false" label="High" sequence="2" value="High"/>
+                <element inactive_on_update="false" label="Acute" sequence="0" value="Acute"/>
+                <element inactive_on_update="false" label="Medium" sequence="3" value="Medium"/>
+                <element inactive_on_update="false" label="Severe" sequence="1" value="Severe"/>
+            </choice>
+        </element>
+        <element choice="1" label="Confidentiality Reputional Impact" max_length="40" name="confidentiality_reputional_impact" type="choice">
+            <choice>
+                <element inactive="true" inactive_on_update="true" label="Severe" sequence="3" value="Severe"/>
+                <element inactive_on_update="false" label="Low" sequence="7" value="Low"/>
+                <element inactive_on_update="false" label="High" sequence="5" value="High"/>
+                <element inactive_on_update="false" label="Acute" sequence="0" value="Choice 1"/>
+                <element inactive_on_update="false" label="Severe" sequence="4" value="Choice 2"/>
+                <element inactive="true" inactive_on_update="true" label="Acute" sequence="1" value="Acute"/>
+                <element inactive="true" inactive_on_update="true" label="Choice 3" sequence="2" value="Choice 3"/>
+                <element inactive_on_update="false" label="Medium" sequence="6" value="Medium"/>
+            </choice>
+        </element>
+        <element choice="1" choice_field="integrity_reputational_impact" choice_table="x_1440356_riskatla_asset_risk_evaluation" label="Availability Regulatory Impact" max_length="40" name="availability_regulatory_impact" type="choice">
             <choice/>
         </element>
-        <element default="Purpose of Assessment" function_definition="Purpose of Assessment" label="Purpose of Assessment" max_length="255" name="purpose_of_assessment" read_only="true" type="string_full_utf8"/>
+        <element choice="1" label="Integrity Financial Impact" max_length="40" name="integrity_financial_impact" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Acute" sequence="0" value="Acute"/>
+                <element inactive_on_update="false" label="Severe" sequence="1" value="Severe"/>
+                <element inactive_on_update="false" label="High" sequence="2" value="High"/>
+                <element inactive_on_update="false" label="Medium" sequence="3" value="Medium"/>
+                <element inactive_on_update="false" label="Low" sequence="4" value="Low"/>
+            </choice>
+        </element>
+        <element choice="1" choice_field="integrity_reputational_impact" choice_table="x_1440356_riskatla_asset_risk_evaluation" label="Availability Client Impact" max_length="40" name="availability_client_impact" type="choice">
+            <choice/>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Confidentiality Reputional Impact" max_length="40" name="con_rep_impact" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Severe" sequence="1" value="severe"/>
+                <element inactive_on_update="false" label="Low" sequence="4" value="low"/>
+                <element inactive_on_update="false" label="Medium" sequence="3" value="medium"/>
+                <element inactive_on_update="false" label="Acute" sequence="0" value="acute"/>
+                <element inactive_on_update="false" label="High" sequence="2" value="high"/>
+            </choice>
+        </element>
+        <element choice="1" label="Integrity Regulatory Impact" max_length="40" name="integrity_regulatory_impact" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Medium" sequence="3" value="Medium"/>
+                <element inactive_on_update="false" label="Low" sequence="4" value="Low"/>
+                <element inactive_on_update="false" label="Acute" sequence="0" value="Acute"/>
+                <element inactive_on_update="false" label="Severe" sequence="1" value="Severe"/>
+                <element inactive_on_update="false" label="High" sequence="2" value="High"/>
+            </choice>
+        </element>
+        <element label="Integrity Rating" max_length="32" name="integrity_rating" reference="x_cdltd_asset_prof_asset_profile_request" type="reference"/>
+        <element label="Asset ID" max_length="32" name="asset_id" reference="x_cdltd_asset_prof_asset_profile_request" type="reference"/>
+        <element choice="1" label="Integrity Client Impact" max_length="255" name="integrity_client_impact" type="radio">
+            <choice>
+                <element inactive_on_update="false" label="Low" sequence="4" value="Low"/>
+                <element inactive_on_update="false" label="Acute" sequence="0" value="Acute"/>
+                <element inactive_on_update="false" label="Severe" sequence="1" value="Severe"/>
+                <element inactive_on_update="false" label="Medium" sequence="3" value="Medium"/>
+                <element inactive_on_update="false" label="High" sequence="2" value="High"/>
+            </choice>
+        </element>
+        <element choice="1" label="Availability Reputational Impact" max_length="40" name="availability_reputational_impact" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Severe" sequence="1" value="Severe"/>
+                <element inactive_on_update="false" label="High" sequence="2" value="High"/>
+                <element inactive_on_update="false" label="Medium" sequence="3" value="Medium"/>
+                <element inactive_on_update="false" label="Acute" sequence="0" value="Acute"/>
+                <element inactive_on_update="false" label="Low" sequence="4" value="Low"/>
+            </choice>
+        </element>
+        <element choice="1" label="Confidentiality Financial Impact" max_length="40" name="confidentiality_financial_impact" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Medium" sequence="3" value="Medium"/>
+                <element inactive_on_update="false" label="Severe" sequence="1" value="Severe"/>
+                <element inactive_on_update="false" label="Acute" sequence="0" value="Acute"/>
+                <element inactive_on_update="false" label="Low" sequence="4" value="Low"/>
+                <element inactive_on_update="false" label="High" sequence="2" value="High"/>
+            </choice>
+        </element>
+        <element choice="1" label="Integrity Market Impact" max_length="40" name="integrity_market_impac0" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="High" sequence="2" value="High"/>
+                <element inactive_on_update="false" label="Medium" sequence="3" value="Medium"/>
+                <element inactive_on_update="false" label="Low" sequence="4" value="Low"/>
+                <element inactive_on_update="false" label="Acute" sequence="0" value="Acute"/>
+                <element inactive_on_update="false" label="Severe" sequence="1" value="Severe"/>
+            </choice>
+        </element>
+        <element choice="1" label="Integrity Market Impact" max_length="40" name="integrity_market_impact" type="choice">
+            <choice/>
+        </element>
+        <element choice="1" label="Confidentiality Financial Impact - Infrastructure:" max_length="40" name="confidentiality_financial_impact_infrastructure" type="choice">
+            <choice/>
+        </element>
+        <element choice="1" label="Confidentiality Market Impact" max_length="40" name="confidentiality_market_impact" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="High" sequence="2" value="High"/>
+                <element inactive_on_update="false" label="Acute" sequence="0" value="Acute"/>
+                <element inactive_on_update="false" label="Medium" sequence="3" value="Medium"/>
+                <element inactive_on_update="false" label="Low" sequence="4" value="Low"/>
+                <element inactive_on_update="false" label="Severe" sequence="1" value="Severe"/>
+            </choice>
+        </element>
+        <element label="Confidentiality Financial Impact" max_length="40" name="con_fin_impact" type="radio"/>
+        <element choice="1" label="Confidentiality Client Impact" max_length="40" name="confidentiality_client_impact" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Medium" sequence="3" value="Medium"/>
+                <element inactive_on_update="false" label="Severe" sequence="1" value="Severe"/>
+                <element inactive_on_update="false" label="Low" sequence="4" value="Low"/>
+                <element inactive_on_update="false" label="High" sequence="2" value="High"/>
+                <element inactive_on_update="false" label="Acute" sequence="0" value="Acute"/>
+            </choice>
+        </element>
         <index name="index">
             <element name="asset_detail0"/>
         </index>
         <index name="index2">
-            <element name="it_asset_owner_itao"/>
+            <element name="asset_id"/>
         </index>
         <index name="index3">
+            <element name="integrity_rating"/>
+        </index>
+        <index name="index4">
+            <element name="it_asset_owner_itao"/>
+        </index>
+        <index name="index5">
             <element name="sys_class_name"/>
         </index>
     </element>

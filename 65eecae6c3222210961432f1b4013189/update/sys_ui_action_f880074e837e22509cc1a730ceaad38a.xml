@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_action">
+    <sys_ui_action action="INSERT_OR_UPDATE">
+        <action_name/>
+        <active>true</active>
+        <client>true</client>
+        <client_script_v2><![CDATA[function onClick(g_form) {
+
+}]]></client_script_v2>
+        <comments/>
+        <condition>current.assessment_status==1</condition>
+        <form_action>true</form_action>
+        <form_button>true</form_button>
+        <form_button_v2>false</form_button_v2>
+        <form_context_menu>false</form_context_menu>
+        <form_link>false</form_link>
+        <form_menu_button_v2>false</form_menu_button_v2>
+        <form_style/>
+        <format_for_configurable_workspace>false</format_for_configurable_workspace>
+        <hint/>
+        <isolate_script>true</isolate_script>
+        <list_action>false</list_action>
+        <list_banner_button>false</list_banner_button>
+        <list_button>false</list_button>
+        <list_choice>false</list_choice>
+        <list_context_menu>false</list_context_menu>
+        <list_link>false</list_link>
+        <list_save_with_form_button>false</list_save_with_form_button>
+        <list_style/>
+        <messages/>
+        <name>Submit Assessment</name>
+        <onclick>submitAssessment()</onclick>
+        <order>-100</order>
+        <script><![CDATA[function submitAssessment() {
+  // Get the form element
+  var formElement = g_form.getFormElement();
+
+  // Set the field value (replace 'your_field_name' and 'new_value' with actual values)
+  g_form.setValue('assessment_status', 3);
+
+  // Optionally, you can update the form immediately
+  // This is useful if you want the change to be visible before submission
+  g_form.save();
+
+  // If you want the UI action to trigger a server-side script as well, 
+  // you need to call the server-side function using gsftSubmit.
+  // For example:
+  // gsftSubmit(null, formElement, 'your_action_name');
+}
+
+// Check if the UI action is a client or server script
+// If the UI action has the "Client" box checked, the client script will run first
+// If not, it will run server-side
+// The following code is a server-side script
+if (typeof window == 'undefined') {
+  // Code that runs on the server
+}]]></script>
+        <show_insert>true</show_insert>
+        <show_multiple_update>false</show_multiple_update>
+        <show_query>false</show_query>
+        <show_update>true</show_update>
+        <sys_class_name>sys_ui_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-19 08:53:36</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>f880074e837e22509cc1a730ceaad38a</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Submit Assessment</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="RiskAtlas" source="x_1440356_riskatla">65eecae6c3222210961432f1b4013189</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="RiskAtlas">65eecae6c3222210961432f1b4013189</sys_scope>
+        <sys_update_name>sys_ui_action_f880074e837e22509cc1a730ceaad38a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-21 06:44:49</sys_updated_on>
+        <table>x_1440356_riskatla_asset_risk_evaluation</table>
+        <ui11_compatible>true</ui11_compatible>
+        <ui16_compatible>false</ui16_compatible>
+    </sys_ui_action>
+</record_update>

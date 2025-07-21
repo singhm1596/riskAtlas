@@ -5,9 +5,9 @@
         <attributes/>
         <audit>false</audit>
         <calculation/>
-        <choice>1</choice>
-        <choice_field/>
-        <choice_table/>
+        <choice>3</choice>
+        <choice_field>confidentiality_criticality</choice_field>
+        <choice_table>x_1440356_riskatla_asset_risk_evaluation</choice_table>
         <column_label>Integrity Criticality</column_label>
         <comments/>
         <create_roles/>
@@ -53,7 +53,7 @@
         <sys_scope display_value="RiskAtlas">65eecae6c3222210961432f1b4013189</sys_scope>
         <sys_update_name>sys_dictionary_x_1440356_riskatla_asset_risk_evaluation_integrity_criticality</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-07-09 11:43:58</sys_updated_on>
+        <sys_updated_on>2025-07-19 08:00:07</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
