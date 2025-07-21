@@ -20,6 +20,44 @@
             <element>assessment_status</element>
             <hint/>
             <inactive>false</inactive>
+            <label>Review Rejected</label>
+            <language>en</language>
+            <name>x_1440356_riskatla_asset_risk_evaluation</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-07-21 09:46:22</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-07-21 09:46:22</sys_updated_on>
+            <value>6</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>assessment_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Sign-Off Rejected</label>
+            <language>en</language>
+            <name>x_1440356_riskatla_asset_risk_evaluation</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-07-21 09:46:42</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-07-21 09:46:42</sys_updated_on>
+            <value>7</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>assessment_status</element>
+            <hint/>
+            <inactive>false</inactive>
             <label>Started</label>
             <language>en</language>
             <name>x_1440356_riskatla_asset_risk_evaluation</name>

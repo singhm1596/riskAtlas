@@ -2,17 +2,17 @@
     <sys_ui_related sys_domain="global" table="x_1440356_riskatla_asset_risk_evaluation" version="2" view="">
         <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
             <filter/>
-            <list_id display_value="Asset Risk Evaluation - Default view" name="x_1440356_riskatla_asset_risk_evaluation" related_list="NULL" sys_domain="global" view="Default view">9910caf983f2ee109cc1a730ceaad31c</list_id>
+            <list_id display_value="Asset Risk Evaluation - Default view" name="x_1440356_riskatla_asset_risk_evaluation" related_list="NULL" sys_domain="global" view="Default view">5ee309f283fee2509cc1a730ceaad397</list_id>
             <order_by/>
             <position>0</position>
-            <related_list>x_cdltd_asset_prof_asset_profile_request.u_assetriskprofile_1</related_list>
+            <related_list>x_cdltd_asset_prof_asset_profile_request.u_arp_13</related_list>
             <sys_class_name>sys_ui_related_list_entry</sys_class_name>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-07-18 09:31:37</sys_created_on>
-            <sys_id>d110caf983f2ee109cc1a730ceaad31e</sys_id>
+            <sys_created_on>2025-07-21 07:42:39</sys_created_on>
+            <sys_id>16e349f283fee2509cc1a730ceaad347</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-07-18 09:31:37</sys_updated_on>
+            <sys_updated_on>2025-07-21 07:42:39</sys_updated_on>
         </sys_ui_related_list_entry>
         <sys_ui_related_list action="INSERT_OR_UPDATE">
             <calculated_name>Asset Risk Evaluation - Default view</calculated_name>
@@ -23,10 +23,10 @@
             <related_list/>
             <sys_class_name>sys_ui_related_list</sys_class_name>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-07-18 09:31:37</sys_created_on>
+            <sys_created_on>2025-07-21 07:42:39</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>9910caf983f2ee109cc1a730ceaad31c</sys_id>
+            <sys_id>5ee309f283fee2509cc1a730ceaad397</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>Asset Risk Evaluation - Default view</sys_name>
             <sys_package display_value="RiskAtlas" source="x_1440356_riskatla">65eecae6c3222210961432f1b4013189</sys_package>
@@ -34,7 +34,7 @@
             <sys_scope display_value="RiskAtlas">65eecae6c3222210961432f1b4013189</sys_scope>
             <sys_update_name>sys_ui_related_x_1440356_riskatla_asset_risk_evaluation_null</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-07-18 09:31:37</sys_updated_on>
+            <sys_updated_on>2025-07-21 07:42:39</sys_updated_on>
             <sys_user/>
             <view display_value="Default view" name="NULL">Default view</view>
             <view_name/>
