@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_action_role">
+    <sys_ui_action_role action="DELETE">
+        <sys_class_name>sys_ui_action_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-22 11:09:29</sys_created_on>
+        <sys_id>41ccf2c3833e66509cc1a730ceaad3fb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Reject.x_1440356_riskatla.Final_approver</sys_name>
+        <sys_package display_value="RiskAtlas" source="x_1440356_riskatla">65eecae6c3222210961432f1b4013189</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="RiskAtlas">65eecae6c3222210961432f1b4013189</sys_scope>
+        <sys_ui_action display_value="Reject">b23d34ba83bee2509cc1a730ceaad394</sys_ui_action>
+        <sys_update_name>sys_ui_action_role_41ccf2c3833e66509cc1a730ceaad3fb</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-22 11:09:29</sys_updated_on>
+        <sys_user_role display_value="x_1440356_riskatla.Final_approver" name="x_1440356_riskatla.Final_approver">2b4cf643833e66509cc1a730ceaad3fa</sys_user_role>
+    </sys_ui_action_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="RiskAtlas">65eecae6c3222210961432f1b4013189</application>
+        <file_path/>
+        <instance_id>e99546c4eb7066d0e9bbfddacad0cd90</instance_id>
+        <instance_name>dev316252</instance_name>
+        <name>sys_ui_action_role_41ccf2c3833e66509cc1a730ceaad3fb</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_action_role"><sys_ui_action_role action="INSERT_OR_UPDATE"><sys_class_name>sys_ui_action_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-07-22 11:09:29</sys_created_on><sys_id>41ccf2c3833e66509cc1a730ceaad3fb</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Reject.x_1440356_riskatla.Final_approver</sys_name><sys_package display_value="RiskAtlas" source="x_1440356_riskatla">65eecae6c3222210961432f1b4013189</sys_package><sys_policy/><sys_scope display_value="RiskAtlas">65eecae6c3222210961432f1b4013189</sys_scope><sys_ui_action display_value="Reject">b23d34ba83bee2509cc1a730ceaad394</sys_ui_action><sys_update_name>sys_ui_action_role_41ccf2c3833e66509cc1a730ceaad3fb</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-07-22 11:09:29</sys_updated_on><sys_user_role display_value="x_1440356_riskatla.Final_approver" name="x_1440356_riskatla.Final_approver">2b4cf643833e66509cc1a730ceaad3fa</sys_user_role></sys_ui_action_role></record_update>]]></payload>
+        <payload_hash>1578462673</payload_hash>
+        <record_name>Reject.x_1440356_riskatla.Final_approver</record_name>
+        <reverted_from/>
+        <source>c29bb8f683bee2509cc1a730ceaad3f2</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-22 11:09:29</sys_created_on>
+        <sys_id>f5dcbec7833e66509cc1a730ceaad3c9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19831d304820000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-22 11:09:29</sys_updated_on>
+        <type>UI Action Role</type>
+        <update_guid>f9dcbec7e53e66503891e679fc0866c8</update_guid>
+        <update_guid_history>f9dcbec7e53e66503891e679fc0866c8:1578462673</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-22 11:11:34</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_action_role">sys_ui_action_role</sys_db_object>
+        <sys_id>03e3c7cc24a4445188492ee1a5f9ed21</sys_id>
+        <sys_metadata>41ccf2c3833e66509cc1a730ceaad3fb</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Reject.x_1440356_riskatla.Final_approver</sys_name>
+        <sys_package display_value="RiskAtlas" source="x_1440356_riskatla">65eecae6c3222210961432f1b4013189</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="RiskAtlas">65eecae6c3222210961432f1b4013189</sys_scope>
+        <sys_scope_delete display_value="">2c18b5ef8d03482ca085b169568ec0c9</sys_scope_delete>
+        <sys_update_name>sys_ui_action_role_41ccf2c3833e66509cc1a730ceaad3fb</sys_update_name>
+        <sys_update_version display_value="sys_ui_action_role_41ccf2c3833e66509cc1a730ceaad3fb">f5dcbec7833e66509cc1a730ceaad3c9</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-22 11:11:34</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

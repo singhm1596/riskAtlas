@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="DELETE">
+        <active>false</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>false</advanced>
+        <applies_to/>
+        <condition/>
+        <decision_type>allow</decision_type>
+        <description>Default access control on x_1440356_riskatla_asset_risk_evaluation</description>
+        <local_or_existing>Local</local_or_existing>
+        <name>x_1440356_riskatla_asset_risk_evaluation.confidentiality_criticality</name>
+        <operation display_value="read">read</operation>
+        <script/>
+        <security_attribute/>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-08 08:19:47</sys_created_on>
+        <sys_id>e3bf06eac3222210961432f1b40131f4</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>x_1440356_riskatla_asset_risk_evaluation.confidentiality_criticality</sys_name>
+        <sys_package display_value="RiskAtlas" source="x_1440356_riskatla">65eecae6c3222210961432f1b4013189</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="RiskAtlas">65eecae6c3222210961432f1b4013189</sys_scope>
+        <sys_update_name>sys_security_acl_e3bf06eac3222210961432f1b40131f4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-14 11:55:18</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="RiskAtlas">65eecae6c3222210961432f1b4013189</application>
+        <file_path/>
+        <instance_id>e99546c4eb7066d0e9bbfddacad0cd90</instance_id>
+        <instance_name>dev316252</instance_name>
+        <name>sys_security_acl_e3bf06eac3222210961432f1b40131f4</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>false</advanced>
+        <applies_to/>
+        <condition/>
+        <decision_type>allow</decision_type>
+        <description>Default access control on x_1440356_riskatla_asset_risk_evaluation</description>
+        <local_or_existing>Local</local_or_existing>
+        <name>x_1440356_riskatla_asset_risk_evaluation.confidentiality_criticality</name>
+        <operation display_value="read">read</operation>
+        <script/>
+        <security_attribute/>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-08 08:19:47</sys_created_on>
+        <sys_id>e3bf06eac3222210961432f1b40131f4</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>x_1440356_riskatla_asset_risk_evaluation.confidentiality_criticality</sys_name>
+        <sys_package display_value="RiskAtlas" source="x_1440356_riskatla">65eecae6c3222210961432f1b4013189</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="RiskAtlas">65eecae6c3222210961432f1b4013189</sys_scope>
+        <sys_update_name>sys_security_acl_e3bf06eac3222210961432f1b40131f4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-14 11:55:18</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+</record_update>]]></payload>
+        <payload_hash>-502484953</payload_hash>
+        <record_name>x_1440356_riskatla_asset_risk_evaluation.confidentiality_criticality</record_name>
+        <reverted_from/>
+        <source>30b5ece9833a6e109cc1a730ceaad30d</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-17 08:18:25</sys_created_on>
+        <sys_id>13b5602d833a6e109cc1a730ceaad35a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19817769b520000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-17 08:18:25</sys_updated_on>
+        <type>Access Control</type>
+        <update_guid>dfb5602d263a6e103c535b2fed4a2e59</update_guid>
+        <update_guid_history>dfb5602d263a6e103c535b2fed4a2e59:-502484953</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-22 09:35:26</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl">sys_security_acl</sys_db_object>
+        <sys_id>259b7be69d2949e38fd534bf4f08a051</sys_id>
+        <sys_metadata>e3bf06eac3222210961432f1b40131f4</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1440356_riskatla_asset_risk_evaluation.confidentiality_criticality</sys_name>
+        <sys_package display_value="RiskAtlas" source="x_1440356_riskatla">65eecae6c3222210961432f1b4013189</sys_package>
+        <sys_parent display_value="Confidentiality Criticality">2db5ece9833a6e109cc1a730ceaad347</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="RiskAtlas">65eecae6c3222210961432f1b4013189</sys_scope>
+        <sys_scope_delete display_value="">2c18b5ef8d03482ca085b169568ec0c9</sys_scope_delete>
+        <sys_update_name>sys_security_acl_e3bf06eac3222210961432f1b40131f4</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_e3bf06eac3222210961432f1b40131f4">13b5602d833a6e109cc1a730ceaad35a</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-22 09:35:26</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -29,7 +29,7 @@
         <messages/>
         <name>Sign Off</name>
         <onclick>signoffAssessment()</onclick>
-        <order>-100</order>
+        <order>-200</order>
         <script><![CDATA[function signoffAssessment() {
   // Get the form element
   var formElement = g_form.getFormElement();
@@ -64,7 +64,7 @@ if (typeof window == 'undefined') {
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>ccdcf87a83bee2509cc1a730ceaad33a</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>Sign Off</sys_name>
         <sys_overrides/>
         <sys_package display_value="RiskAtlas" source="x_1440356_riskatla">65eecae6c3222210961432f1b4013189</sys_package>
@@ -72,7 +72,7 @@ if (typeof window == 'undefined') {
         <sys_scope display_value="RiskAtlas">65eecae6c3222210961432f1b4013189</sys_scope>
         <sys_update_name>sys_ui_action_ccdcf87a83bee2509cc1a730ceaad33a</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-07-21 07:15:07</sys_updated_on>
+        <sys_updated_on>2025-07-22 13:29:29</sys_updated_on>
         <table>x_1440356_riskatla_asset_risk_evaluation</table>
         <ui11_compatible>true</ui11_compatible>
         <ui16_compatible>false</ui16_compatible>
