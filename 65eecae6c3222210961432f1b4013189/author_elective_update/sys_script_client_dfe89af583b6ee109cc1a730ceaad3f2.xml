@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field/>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Populate Integrity Criitcality</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+ var areValue = g_form.getReference("u_arp_13");
+ alert(areValue);
+   
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-18 11:25:48</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>dfe89af583b6ee109cc1a730ceaad3f2</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Populate Integrity Criitcality</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="RiskAtlas" source="x_1440356_riskatla">65eecae6c3222210961432f1b4013189</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="RiskAtlas">65eecae6c3222210961432f1b4013189</sys_scope>
+        <sys_update_name>sys_script_client_dfe89af583b6ee109cc1a730ceaad3f2</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-23 12:41:57</sys_updated_on>
+        <table>x_cdltd_asset_prof_asset_profile_request</table>
+        <type>onLoad</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="RiskAtlas">65eecae6c3222210961432f1b4013189</application>
+        <file_path/>
+        <instance_id>e99546c4eb7066d0e9bbfddacad0cd90</instance_id>
+        <instance_name>dev316252</instance_name>
+        <name>sys_script_client_dfe89af583b6ee109cc1a730ceaad3f2</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field/&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;Populate Integrity Criitcality&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onLoad() {
+ var areValue = g_form.getReference("u_arp_13");
+ alert(areValue);
+   
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-07-18 11:25:48&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;dfe89af583b6ee109cc1a730ceaad3f2&lt;/sys_id&gt;&lt;sys_mod_count&gt;4&lt;/sys_mod_count&gt;&lt;sys_name&gt;Populate Integrity Criitcality&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="RiskAtlas" source="x_1440356_riskatla"&gt;65eecae6c3222210961432f1b4013189&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="RiskAtlas"&gt;65eecae6c3222210961432f1b4013189&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_dfe89af583b6ee109cc1a730ceaad3f2&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-07-23 12:41:57&lt;/sys_updated_on&gt;&lt;table&gt;x_cdltd_asset_prof_asset_profile_request&lt;/table&gt;&lt;type&gt;onLoad&lt;/type&gt;&lt;ui_type&gt;0&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1589239096</payload_hash>
+        <record_name>Populate Integrity Criitcality</record_name>
+        <reverted_from/>
+        <source>c29bb8f683bee2509cc1a730ceaad3f2</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-23 12:41:57</sys_created_on>
+        <sys_id>8e9b94a383fae6509cc1a730ceaad39d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>198374e08e70000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-23 12:41:57</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>069b94a3f5fae650f5e37f13032ebd9d</update_guid>
+        <update_guid_history>069b94a3f5fae650f5e37f13032ebd9d:1589239096,8b0b10a38afae6506b7feb7e457cd9d7:295355264,1b76f8fea47ee25089b9fc1f6cd6ba9f:297198262,4b5a16791ab6ee1071ce05deedd15dc5:-557506647,c63a16791ab6ee101e1ec34255c0cfbe:-846032171</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-23 12:42:23</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>0653c40ef1a9403498f159cc68461809</sys_id>
+        <sys_metadata>dfe89af583b6ee109cc1a730ceaad3f2</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Populate Integrity Criitcality</sys_name>
+        <sys_package display_value="RiskAtlas" source="x_1440356_riskatla">65eecae6c3222210961432f1b4013189</sys_package>
+        <sys_parent display_value="Asset Profile Request">e0800c956c7222107f44d234b4e9b3cb</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="RiskAtlas">65eecae6c3222210961432f1b4013189</sys_scope>
+        <sys_scope_delete display_value="">2c18b5ef8d03482ca085b169568ec0c9</sys_scope_delete>
+        <sys_update_name>sys_script_client_dfe89af583b6ee109cc1a730ceaad3f2</sys_update_name>
+        <sys_update_version display_value="sys_script_client_dfe89af583b6ee109cc1a730ceaad3f2">8e9b94a383fae6509cc1a730ceaad39d</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-23 12:42:23</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -3,7 +3,7 @@
         <abort_action>false</abort_action>
         <access>package_private</access>
         <action_delete>false</action_delete>
-        <action_insert>true</action_insert>
+        <action_insert>false</action_insert>
         <action_query>false</action_query>
         <action_update>true</action_update>
         <active>true</active>
@@ -18,8 +18,8 @@
         <filter_condition/>
         <is_rest>false</is_rest>
         <message/>
-        <name>Set Due Date</name>
-        <order>100</order>
+        <name>Create ARE when previous ARE finished</name>
+        <order>200</order>
         <priority>100</priority>
         <rest_method/>
         <rest_method_text/>
@@ -28,30 +28,46 @@
         <rest_variables/>
         <role_conditions/>
         <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
-    var gdt = new GlideDate(); // Get the date field value
-	//gs.addInfoMessage(gdt);
-    gdt.addYearsUTC(3); // Add 7 days (or the desired number of days)
-	//gs.addInfoMessage(gdt);
-    current.due_date = gdt.getDisplayValue(); // Update the date field with the new value
 
-})(current, previous);]]></script>
+
+		if(current.assessment_status==5){
+			var assetID = current.asset_id;
+			var iso = current.asset_id.u_iso_2;
+			
+
+        var newRecord = new GlideRecord('x_1440356_riskatla_asset_risk_evaluation');
+        newRecord.initialize();
+
+        // Set the cross-reference field 'q' to link to the current record
+        newRecord.asset_id = assetID;
+		newRecord.information_security_offficer_iso = iso;
+		
+
+        // Set other fields as needed
+        // newRecord.some_field = 'some_value';
+
+        newRecord.insert();
+		}
+
+ })(current, previous);
+]]></script>
         <sys_class_name>sys_script</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-07-21 08:29:04</sys_created_on>
+        <sys_created_on>2025-07-31 12:45:46</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>752d8532833226509cc1a730ceaad34c</sys_id>
+        <sys_id>88f7a58e83c3e6109cc1a730ceaad3e2</sys_id>
         <sys_mod_count>21</sys_mod_count>
-        <sys_name>Set Due Date</sys_name>
+        <sys_name>Create ARE when previous ARE finished</sys_name>
         <sys_overrides/>
         <sys_package display_value="RiskAtlas" source="x_1440356_riskatla">65eecae6c3222210961432f1b4013189</sys_package>
         <sys_policy/>
         <sys_scope display_value="RiskAtlas">65eecae6c3222210961432f1b4013189</sys_scope>
-        <sys_update_name>sys_script_752d8532833226509cc1a730ceaad34c</sys_update_name>
+        <sys_update_name>sys_script_88f7a58e83c3e6109cc1a730ceaad3e2</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-07-31 13:51:37</sys_updated_on>
+        <sys_updated_on>2025-07-31 16:47:22</sys_updated_on>
         <template/>
-        <when>before</when>
+        <when>async_always</when>
     </sys_script>
-    <sys_translated_text action="delete_multiple" query="documentkey=752d8532833226509cc1a730ceaad34c"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=88f7a58e83c3e6109cc1a730ceaad3e2"/>
 </record_update>

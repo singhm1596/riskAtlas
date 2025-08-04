@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_policy">
     <sys_ui_policy action="INSERT_OR_UPDATE">
         <active>true</active>
-        <conditions table="x_1440356_riskatla_asset_risk_evaluation">assessment_statusIN0,1^EQ<item display_value="0,1" endquery="false" field="assessment_status" goto="false" newquery="false" operator="IN" or="false" value="0,1"/>
-            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
-        </conditions>
+        <conditions/>
         <description/>
         <global>true</global>
         <inherit>false</inherit>
@@ -11,32 +9,36 @@
         <model_id/>
         <model_table/>
         <on_load>true</on_load>
-        <order>300</order>
+        <order>200</order>
         <reverse_if_false>true</reverse_if_false>
-        <run_scripts>false</run_scripts>
+        <run_scripts>true</run_scripts>
         <script_false><![CDATA[function onCondition() {
 
 }]]></script_false>
         <script_true><![CDATA[function onCondition() {
-
+//var test = g_form.getSectionNames();
+//alert(test);
+g_form.setReadOnly("information_security_offficer_iso", true);
+g_form.setReadOnly("it_asset_owner_itao", true);
+g_form.setReadOnly("technical_information_security_officer", true);
 }]]></script_true>
         <set_values/>
-        <short_description>Hide Reviewer Comments</short_description>
+        <short_description>Make roleholders tab read only</short_description>
         <sys_class_name>sys_ui_policy</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-07-21 09:40:08</sys_created_on>
+        <sys_created_on>2025-07-28 08:04:29</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>629e59b6837226509cc1a730ceaad33c</sys_id>
-        <sys_mod_count>10</sys_mod_count>
-        <sys_name>Hide Reviewer Comments</sys_name>
+        <sys_id>4abb0d49830f62109cc1a730ceaad36a</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Make roleholders tab read only</sys_name>
         <sys_overrides/>
         <sys_package display_value="RiskAtlas" source="x_1440356_riskatla">65eecae6c3222210961432f1b4013189</sys_package>
         <sys_policy/>
         <sys_scope display_value="RiskAtlas">65eecae6c3222210961432f1b4013189</sys_scope>
-        <sys_update_name>sys_ui_policy_629e59b6837226509cc1a730ceaad33c</sys_update_name>
+        <sys_update_name>sys_ui_policy_4abb0d49830f62109cc1a730ceaad36a</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-07-30 08:38:09</sys_updated_on>
+        <sys_updated_on>2025-07-30 07:19:22</sys_updated_on>
         <table>x_1440356_riskatla_asset_risk_evaluation</table>
         <ui_type>0</ui_type>
         <view/>

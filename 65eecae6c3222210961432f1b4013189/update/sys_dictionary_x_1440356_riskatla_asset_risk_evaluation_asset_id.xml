@@ -5,7 +5,7 @@
         <attributes/>
         <audit>false</audit>
         <calculation/>
-        <choice>0</choice>
+        <choice/>
         <choice_field/>
         <choice_table/>
         <column_label>Asset ID</column_label>
@@ -33,7 +33,7 @@
         <name>x_1440356_riskatla_asset_risk_evaluation</name>
         <next_element/>
         <primary>false</primary>
-        <read_only>false</read_only>
+        <read_only>true</read_only>
         <read_roles/>
         <reference display_value="" name="x_cdltd_asset_prof_asset_profile_request">x_cdltd_asset_prof_asset_profile_request</reference>
         <reference_cascade_rule/>
@@ -53,7 +53,7 @@
         <sys_scope display_value="RiskAtlas">65eecae6c3222210961432f1b4013189</sys_scope>
         <sys_update_name>sys_dictionary_x_1440356_riskatla_asset_risk_evaluation_asset_id</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-07-18 09:29:58</sys_updated_on>
+        <sys_updated_on>2025-07-30 10:55:48</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

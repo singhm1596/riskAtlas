@@ -4,7 +4,7 @@
         <acls/>
         <active>true</active>
         <annotation/>
-        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=244625000,viewActivatedIn=naturalLanguage</attributes>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=1121609000,viewActivatedIn=naturalLanguage</attributes>
         <authored_on_release_version>27000</authored_on_release_version>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
@@ -15,7 +15,7 @@
         <flow_priority>MEDIUM</flow_priority>
         <generation_source/>
         <internal_name>get_cia_from_asset_profile_request</internal_name>
-        <label_cache>[{"name":"0abb4ac4-702e-4cba-85b7-4149d262530b.record.sys_id","label":"1 - Create Record➛Asset Risk Evaluation Record➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"x_1440356_riskatla_asset_risk_evaluation","column_name":"sys_id","usedInstances":{"3bc9c80d-707e-4e50-be59-82e87962fbed":["u_arp_13"]}},{"name":"0abb4ac4-702e-4cba-85b7-4149d262530b.record.number","label":"1 - Create Record➛Asset Risk Evaluation Record➛Number","reference":"","reference_display":"Number","type":"string","base_type":"string","parent_table_name":"x_1440356_riskatla_asset_risk_evaluation","column_name":"number","usedInstances":{"3bc9c80d-707e-4e50-be59-82e87962fbed":["u_arp_13"]}},{"name":"Created or Updated_1.current","label":"Trigger - Record Created or Updated➛Asset Profile Request Record","reference":"x_cdltd_asset_prof_asset_profile_request","reference_display":"Asset Profile Request","type":"reference","base_type":"reference","usedInstances":{"3bc9c80d-707e-4e50-be59-82e87962fbed":["record"]},"attributes":{}},{"name":"0abb4ac4-702e-4cba-85b7-4149d262530b.table_name","label":"1 - Create Record➛Asset Risk Evaluation Table","reference":"x_1440356_riskatla_asset_risk_evaluation","reference_display":"Asset Risk Evaluation","type":"table_name","base_type":"table_name","usedInstances":{"35af7955-a124-499e-8d0f-c6f9674bd2d7":["table"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache>
+        <label_cache>[{"name":"fc8250eb-f7c2-4edf-b9ed-f431eefbaa43.record.assessment_status","label":"5 - Create Record➛Asset Risk Evaluation Record➛Assessment Status","reference":"","reference_display":"Assessment Status","type":"choice","base_type":"choice","parent_table_name":"x_1440356_riskatla_asset_risk_evaluation","column_name":"assessment_status","choices":[{"image":"","label":"Review Rejected","used":false,"rawLabel":"Review Rejected","selected":false,"missing":false,"reference":false,"value":"6","parameters":{"name":"x_1440356_riskatla_asset_risk_evaluation","dependent_values":[""]}},{"image":"","label":"Sign-Off Rejected","used":false,"rawLabel":"Sign-Off Rejected","selected":false,"missing":false,"reference":false,"value":"7","parameters":{"name":"x_1440356_riskatla_asset_risk_evaluation","dependent_values":[""]}},{"image":"","label":"Started","used":false,"rawLabel":"Started","selected":false,"missing":false,"reference":false,"value":"0","parameters":{"name":"x_1440356_riskatla_asset_risk_evaluation","dependent_values":[""]}},{"image":"","label":"In Progress","used":false,"rawLabel":"In Progress","selected":false,"missing":false,"reference":false,"value":"1","parameters":{"name":"x_1440356_riskatla_asset_risk_evaluation","dependent_values":[""]}},{"image":"","label":"Review Pending","used":false,"rawLabel":"Review Pending","selected":false,"missing":false,"reference":false,"value":"3","parameters":{"name":"x_1440356_riskatla_asset_risk_evaluation","dependent_values":[""]}},{"image":"","label":"Sign-Off Pending","used":false,"rawLabel":"Sign-Off Pending","selected":false,"missing":false,"reference":false,"value":"4","parameters":{"name":"x_1440356_riskatla_asset_risk_evaluation","dependent_values":[""]}},{"image":"","label":"Finished","used":false,"rawLabel":"Finished","selected":false,"missing":false,"reference":false,"value":"5","parameters":{"name":"x_1440356_riskatla_asset_risk_evaluation","dependent_values":[""]}}],"usedInstances":{"6fe06241-1b7c-46df-b8d3-9ae09fac91da":["condition"]}},{"name":"Created or Updated_1.table_name","label":"Trigger - Record Created or Updated➛Asset Profile Request Table","reference":"x_cdltd_asset_prof_asset_profile_request","reference_display":"Asset Profile Request","type":"table_name","base_type":"table_name","usedInstances":{"df068f13-c231-4fcc-ada6-21420305f932":["table"]},"attributes":{"test_input_hidden":"true"}},{"name":"3bc9c80d-707e-4e50-be59-82e87962fbed.record.u_iso_2.sys_id","label":"2 - Update Record➛Asset Profile Request Record➛Information Security Officer (ISO)➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"sys_user","column_name":"sys_id","usedInstances":{"a0794854-00ad-4e84-a1a1-04c528a8ff89":["information_security_offficer_iso"],"c799e13c-2615-443f-97e3-194f57169902":["information_security_offficer_iso"]}},{"name":"0abb4ac4-702e-4cba-85b7-4149d262530b.record","label":"1 - Create Record➛Asset Risk Evaluation Record","reference":"x_1440356_riskatla_asset_risk_evaluation","reference_display":"Asset Risk Evaluation","type":"reference","base_type":"reference","usedInstances":{"a0794854-00ad-4e84-a1a1-04c528a8ff89":["record"],"c799e13c-2615-443f-97e3-194f57169902":["record"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"0abb4ac4-702e-4cba-85b7-4149d262530b.record.sys_id","label":"1 - Create Record➛Asset Risk Evaluation Record➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"x_1440356_riskatla_asset_risk_evaluation","column_name":"sys_id","usedInstances":{"3bc9c80d-707e-4e50-be59-82e87962fbed":["u_arp_13"],"a0794854-00ad-4e84-a1a1-04c528a8ff89":["technical_information_security_officer","it_asset_owner_itao"],"c799e13c-2615-443f-97e3-194f57169902":["information_security_offficer_iso"]}},{"name":"0abb4ac4-702e-4cba-85b7-4149d262530b.record.number","label":"1 - Create Record➛Asset Risk Evaluation Record➛Number","reference":"","reference_display":"Number","type":"string","base_type":"string","parent_table_name":"x_1440356_riskatla_asset_risk_evaluation","column_name":"number","usedInstances":{"3bc9c80d-707e-4e50-be59-82e87962fbed":["u_arp_13"]}},{"name":"Created or Updated_1.current","label":"Trigger - Record Created or Updated➛Asset Profile Request Record","reference":"x_cdltd_asset_prof_asset_profile_request","reference_display":"Asset Profile Request","type":"reference","base_type":"reference","usedInstances":{"3bc9c80d-707e-4e50-be59-82e87962fbed":["record"],"0abb4ac4-702e-4cba-85b7-4149d262530b":["asset_id"]},"attributes":{}},{"name":"0abb4ac4-702e-4cba-85b7-4149d262530b.table_name","label":"1 - Create Record➛Asset Risk Evaluation Table","reference":"x_1440356_riskatla_asset_risk_evaluation","reference_display":"Asset Risk Evaluation","type":"table_name","base_type":"table_name","usedInstances":{"35af7955-a124-499e-8d0f-c6f9674bd2d7":["table"],"d42a3731-a98e-4f20-836f-c0a11925c357":["table_name"],"1ed0e6fb-c0e5-4c69-9c94-1e00358ee32e":["table"],"fc8250eb-f7c2-4edf-b9ed-f431eefbaa43":["table_name"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"3bc9c80d-707e-4e50-be59-82e87962fbed.record.sys_id","label":"2 - Update Record➛Asset Profile Request Record➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"x_cdltd_asset_prof_asset_profile_request","column_name":"sys_id","usedInstances":{"a0794854-00ad-4e84-a1a1-04c528a8ff89":["information_security_offficer_iso"]}},{"name":"0abb4ac4-702e-4cba-85b7-4149d262530b.record.assessment_status","label":"1 - Create Record➛Asset Risk Evaluation Record➛Assessment Status","reference":"","reference_display":"Assessment Status","type":"choice","base_type":"choice","parent_table_name":"x_1440356_riskatla_asset_risk_evaluation","column_name":"assessment_status","choices":[{"image":"","label":"Review Rejected","used":false,"rawLabel":"Review Rejected","selected":false,"missing":false,"reference":false,"value":"6","parameters":{"name":"x_1440356_riskatla_asset_risk_evaluation","dependent_values":[""]}},{"image":"","label":"Sign-Off Rejected","used":false,"rawLabel":"Sign-Off Rejected","selected":false,"missing":false,"reference":false,"value":"7","parameters":{"name":"x_1440356_riskatla_asset_risk_evaluation","dependent_values":[""]}},{"image":"","label":"Started","used":false,"rawLabel":"Started","selected":false,"missing":false,"reference":false,"value":"0","parameters":{"name":"x_1440356_riskatla_asset_risk_evaluation","dependent_values":[""]}},{"image":"","label":"In Progress","used":false,"rawLabel":"In Progress","selected":false,"missing":false,"reference":false,"value":"1","parameters":{"name":"x_1440356_riskatla_asset_risk_evaluation","dependent_values":[""]}},{"image":"","label":"Review Pending","used":false,"rawLabel":"Review Pending","selected":false,"missing":false,"reference":false,"value":"3","parameters":{"name":"x_1440356_riskatla_asset_risk_evaluation","dependent_values":[""]}},{"image":"","label":"Sign-Off Pending","used":false,"rawLabel":"Sign-Off Pending","selected":false,"missing":false,"reference":false,"value":"4","parameters":{"name":"x_1440356_riskatla_asset_risk_evaluation","dependent_values":[""]}},{"image":"","label":"Finished","used":false,"rawLabel":"Finished","selected":false,"missing":false,"reference":false,"value":"5","parameters":{"name":"x_1440356_riskatla_asset_risk_evaluation","dependent_values":[""]}}],"usedInstances":{"ff543723-590b-4663-8025-4aa12793856c":["condition"],"cd52cb0a-a848-4bb1-b8b3-d2bcbee94146":["condition"]}},{"name":"Created or Updated_1.current.u_asset_id_2","label":"Trigger - Record Created or Updated➛Asset Profile Request Record➛Asset ID","reference":"","reference_display":"Asset ID","type":"string","base_type":"string","parent_table_name":"x_cdltd_asset_prof_asset_profile_request","column_name":"u_asset_id_2","usedInstances":{"d42a3731-a98e-4f20-836f-c0a11925c357":["asset_id"],"fc8250eb-f7c2-4edf-b9ed-f431eefbaa43":["asset_id"]}},{"name":"0abb4ac4-702e-4cba-85b7-4149d262530b.record.sys_created_on","label":"1 - Create Record➛Asset Risk Evaluation Record➛Created","reference":"","reference_display":"Created","type":"glide_date_time","base_type":"glide_date_time","parent_table_name":"x_1440356_riskatla_asset_risk_evaluation","column_name":"sys_created_on","usedInstances":{}}]</label_cache>
         <master_snapshot>c7738db283fee2509cc1a730ceaad3ff</master_snapshot>
         <master_snapshot_digest/>
         <name>Create ARE</name>
@@ -36,7 +36,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>c3b3663d83b6ee109cc1a730ceaad3d6</sys_id>
-        <sys_mod_count>20</sys_mod_count>
+        <sys_mod_count>54</sys_mod_count>
         <sys_name>Create ARE</sys_name>
         <sys_overrides/>
         <sys_package display_value="RiskAtlas" source="x_1440356_riskatla">65eecae6c3222210961432f1b4013189</sys_package>
@@ -44,7 +44,7 @@
         <sys_scope display_value="RiskAtlas">65eecae6c3222210961432f1b4013189</sys_scope>
         <sys_update_name>sys_hub_flow_c3b3663d83b6ee109cc1a730ceaad3d6</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-07-21 08:04:32</sys_updated_on>
+        <sys_updated_on>2025-07-31 11:40:55</sys_updated_on>
         <type>flow</type>
         <updation_source/>
         <version>2</version>
@@ -88,14 +88,14 @@
         <identifier>c3b3663d83b6ee109cc1a730ceaad3d6</identifier>
         <runner>FDTriggerRunner</runner>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-07-21 08:04:32</sys_created_on>
-        <sys_id>bae889ba83fee2509cc1a730ceaad3d2</sys_id>
+        <sys_created_on>2025-07-31 11:40:55</sys_created_on>
+        <sys_id>4a5a198a8383e6109cc1a730ceaad331</sys_id>
         <sys_mod_count>2</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-07-21 08:04:32</sys_updated_on>
+        <sys_updated_on>2025-07-31 11:40:55</sys_updated_on>
         <trigger display_value="">1773cdb283fee2509cc1a730ceaad335</trigger>
     </sys_trigger_runner_mapping>
-    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=c3b3663d83b6ee109cc1a730ceaad3d6^sys_idNOT INbae889ba83fee2509cc1a730ceaad3d2"/>
+    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=c3b3663d83b6ee109cc1a730ceaad3d6^sys_idNOT IN4a5a198a8383e6109cc1a730ceaad331"/>
     <sys_hub_flow_stage action="delete_multiple" query="flow=c3b3663d83b6ee109cc1a730ceaad3d6"/>
     <sys_flow_cat_variable_model action="delete_multiple" query="id=c3b3663d83b6ee109cc1a730ceaad3d6^sys_idNOT INc7b3663d83b6ee109cc1a730ceaad3d9"/>
     <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
@@ -403,13 +403,13 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-07-21 07:38:50</sys_created_on>
         <sys_id>920305b283fee2509cc1a730ceaad381</sys_id>
-        <sys_mod_count>11</sys_mod_count>
+        <sys_mod_count>26</sys_mod_count>
         <sys_scope display_value="RiskAtlas">65eecae6c3222210961432f1b4013189</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-07-21 08:05:45</sys_updated_on>
+        <sys_updated_on>2025-07-31 11:44:17</sys_updated_on>
         <ui_id>0abb4ac4-702e-4cba-85b7-4149d262530b</ui_id>
         <updation_source/>
-        <values>H4sIAAAAAAAA/9VUTW/bMAz9K4HORiDHadDmVrTLaWuBdsilKwTaohNhsuxJcpos6H8fZctp0Db7AHZpbiQfyfdovTzsmZJszmYp8rOLdFZkaZZNOJ+cT9N8luXpRGaAOGUJM1AhIT3kGkUXJGwDug3JrUinU56dzYRV7jt4DQKcQ9+FAgMMvKoNtUjlGg27Zey8DLDRHcFGn45hxVppadGw+cNjwhqwtNCjZfP9q9Lf0teQoybo18D/hBy/a97NfT7uHd30hdrKwIcnDLcejUQiUoJ2mLAKjARf2x2be9tSwiLIW6N3B8RaGU8DWcBunfpJa895wJVIygrsa4dQxKv16fIaPNzT5MK3NkKLda0KdP1NJJbQan91nOsBt013366lkxm7a91W5qY/CTsMGD4SZVpHJLAJOgPzKKO8X9dPdwPLhTLdSWJR1wXoQwTeW5W3PvDZM9RY0SBRQdMosxKNrTeqayYu1XilKRiXun6ipU6tzBiKQHxMZ4XxgvLXXXoJVgUVX2gMNT8nzO3claa396KFjih+tIFJryxqEP0ZQkthVeMvacEGI93nZPCFRH5x8mGl+ctD6qzgjjwRDOBcp9J58K371nKeSf7WA79B/qMN/sx2sMFCoZbuHfqDB7Aiih5FL+eVD2JxtIzF6IX0f3khnfHu94Ec0Yv78IY4+u87YY3HXxwh4hE0BgAA</values>
+        <values>H4sIAAAAAAAA/9VUTW8aMRD9KyufV6vdLEEJt4iUU5tIScslTazZ9SxY9X7U9hIo4r93vDYEpUFtpVzCCc+8Gb/38ONhy6RgEzbOMD2/zMZlnuX5WZqeXYyyYpwX2ZnIAXHEYtZAjYS0UCjkwyFmK1C9K655Nhql+fmYa2l+gFXAwRi0w5Gjg4GVbUMjQppOwWYeJq8cLLojWPTpGFYupRIaGzZ5eIxZB5outKjZZPuq9a/0FRSoCPrV8T8hx266N2ufj2ejG99otXB80pjh2mIjkIhUoAzGrIZGgG31hk2s7qmgEcRtozYHxFI2lhYyh10b+YuuvUgdrkJSVqLvHY48uObL1TVYuKfNpe11gJbLVpZovCcCK+iVnR7XPOC2G/wdRgaZYbpVfd3ceEvYYcH+R6JKb4gEdk6nYx5kVPfL9vluz3Imm8GS0FRtCepwAmu1LHrr+GwZKqxpEa+h62Sz4J1uV3IYJi51slB0SCrVPtOlRi6aBEpHPCFbIZlR/Xooz0FLp+ILraHhXczMxkwVvb0XLWQi/9k7Jl5Z0MC9DW6k1LKzV3TBCgPdXbzPhcD08uTDyoqXhzREwRxlwgXAmEGlsWB7871P01ykTz4ZUvjzdjul12FRRK2OvnXCfeVZUvaaPLW73Z+Reb/F/xmyv3uxD9lMohLmDXP2CcOaFFnk3qxXKQvNaB6aIWnZeyUtG6fD5wPlzYv78HE7+mc9EbzH328c/aCSBgAA</values>
     </sys_hub_action_instance_v2>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=920305b283fee2509cc1a730ceaad381"/>
     <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
@@ -427,10 +427,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-07-21 07:38:50</sys_created_on>
         <sys_id>9e0305b283fee2509cc1a730ceaad382</sys_id>
-        <sys_mod_count>12</sys_mod_count>
+        <sys_mod_count>26</sys_mod_count>
         <sys_scope display_value="RiskAtlas">65eecae6c3222210961432f1b4013189</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-07-21 08:05:45</sys_updated_on>
+        <sys_updated_on>2025-07-31 11:44:17</sys_updated_on>
         <ui_id>3bc9c80d-707e-4e50-be59-82e87962fbed</ui_id>
         <updation_source/>
         <values>H4sIAAAAAAAA/+VVy07jMBT9lcjrNsqrBbpDVJVGYmAEM2wYFDn2TbHkPHBsoBP13+c6cUIEiAGJDZqu4vvyOac+9nVLBCcrkgAPwqNwyeIwjqMgiA6TMFvGWRjxmAKEZEZKWgBWKmCV4ri+p9LYQNueKKAauFcp71fN7Wca+swoBaXe77GUi6aWdHflOjDCboXkmCer65sZqanC4RoUWbXPUu9FJ2kGEksvBnjP4epdbde8YqZAXKkYgqeuc+0y3rc1ZrDJwgmDGYFHDSUHBJJT2cCMFLRElpXakZVWBgPIn5+XcjdW3IpS90QL+tiIP7hzEti6HJAZcyKMy9QJ1IfzNdX0EiczbdSoVyUYNL0mHHJqpD6ZxvqC81qLquxbNM3k0F1JU5RnvSJkHDD5P0yDIKC2PC3ynlZ+eVs9XAwgN6LsJHEUZcWoHFdUayUyoy2cloCETuOC1rUot2mtqnvRNSOUwt9KXPi5rB5wz0ZsS58yi9tHVam/wfi6C19RJSyJ7zgGm/cz0uyaE0mb5okKapjeGYukJ+YopJ0KnQRpdxJsM1Oi1se41T044PuZO//Z4q0Txo6eDtRk5pMHHlPGpeYpQgNt6eaTT4H1Cu4MNPqlF45tmfejL/MuxrKPGeQd8AeD/OyOxet0nEdexE6nvd5Zn3AOWXyaQw6/kkMcjS9vkX8ZI4jevHonJ6nzQjMxhUmpqtMw/m2CIOZtG9AsSyhL5gdBBPOEZXR+uMgO5kmYHPFoGS3iIPP7+9pHFnhDv/Z4fNLUj/nrHSoM/toIkLx5RZbBXFAgHQ1pL9Mzg7mkd+WS4zP0aS4Ll0H3+0Je+29eo5u/BgoXjI8JAAA=</values>
@@ -525,7 +525,7 @@
         <description/>
         <flow_priority>MEDIUM</flow_priority>
         <internal_name>create_are</internal_name>
-        <label_cache>[{"name":"0abb4ac4-702e-4cba-85b7-4149d262530b.record.sys_id","label":"1 - Create Record➛Asset Risk Evaluation Record➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"x_1440356_riskatla_asset_risk_evaluation","column_name":"sys_id","usedInstances":{"3bc9c80d-707e-4e50-be59-82e87962fbed":["u_arp_13"]}},{"name":"0abb4ac4-702e-4cba-85b7-4149d262530b.record.number","label":"1 - Create Record➛Asset Risk Evaluation Record➛Number","reference":"","reference_display":"Number","type":"string","base_type":"string","parent_table_name":"x_1440356_riskatla_asset_risk_evaluation","column_name":"number","usedInstances":{"3bc9c80d-707e-4e50-be59-82e87962fbed":["u_arp_13"]}},{"name":"Created or Updated_1.current","label":"Trigger - Record Created or Updated➛Asset Profile Request Record","reference":"x_cdltd_asset_prof_asset_profile_request","reference_display":"Asset Profile Request","type":"reference","base_type":"reference","usedInstances":{"3bc9c80d-707e-4e50-be59-82e87962fbed":["record"]},"attributes":{}},{"name":"0abb4ac4-702e-4cba-85b7-4149d262530b.table_name","label":"1 - Create Record➛Asset Risk Evaluation Table","reference":"x_1440356_riskatla_asset_risk_evaluation","reference_display":"Asset Risk Evaluation","type":"table_name","base_type":"table_name","usedInstances":{"35af7955-a124-499e-8d0f-c6f9674bd2d7":["table"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache>
+        <label_cache>[{"name":"fc8250eb-f7c2-4edf-b9ed-f431eefbaa43.record.assessment_status","label":"5 - Create Record➛Asset Risk Evaluation Record➛Assessment Status","reference":"","reference_display":"Assessment Status","type":"choice","base_type":"choice","parent_table_name":"x_1440356_riskatla_asset_risk_evaluation","column_name":"assessment_status","choices":[{"image":"","label":"Review Rejected","used":false,"rawLabel":"Review Rejected","selected":false,"missing":false,"reference":false,"value":"6","parameters":{"name":"x_1440356_riskatla_asset_risk_evaluation","dependent_values":[""]}},{"image":"","label":"Sign-Off Rejected","used":false,"rawLabel":"Sign-Off Rejected","selected":false,"missing":false,"reference":false,"value":"7","parameters":{"name":"x_1440356_riskatla_asset_risk_evaluation","dependent_values":[""]}},{"image":"","label":"Started","used":false,"rawLabel":"Started","selected":false,"missing":false,"reference":false,"value":"0","parameters":{"name":"x_1440356_riskatla_asset_risk_evaluation","dependent_values":[""]}},{"image":"","label":"In Progress","used":false,"rawLabel":"In Progress","selected":false,"missing":false,"reference":false,"value":"1","parameters":{"name":"x_1440356_riskatla_asset_risk_evaluation","dependent_values":[""]}},{"image":"","label":"Review Pending","used":false,"rawLabel":"Review Pending","selected":false,"missing":false,"reference":false,"value":"3","parameters":{"name":"x_1440356_riskatla_asset_risk_evaluation","dependent_values":[""]}},{"image":"","label":"Sign-Off Pending","used":false,"rawLabel":"Sign-Off Pending","selected":false,"missing":false,"reference":false,"value":"4","parameters":{"name":"x_1440356_riskatla_asset_risk_evaluation","dependent_values":[""]}},{"image":"","label":"Finished","used":false,"rawLabel":"Finished","selected":false,"missing":false,"reference":false,"value":"5","parameters":{"name":"x_1440356_riskatla_asset_risk_evaluation","dependent_values":[""]}}],"usedInstances":{"6fe06241-1b7c-46df-b8d3-9ae09fac91da":["condition"]}},{"name":"Created or Updated_1.table_name","label":"Trigger - Record Created or Updated➛Asset Profile Request Table","reference":"x_cdltd_asset_prof_asset_profile_request","reference_display":"Asset Profile Request","type":"table_name","base_type":"table_name","usedInstances":{"df068f13-c231-4fcc-ada6-21420305f932":["table"]},"attributes":{"test_input_hidden":"true"}},{"name":"3bc9c80d-707e-4e50-be59-82e87962fbed.record.u_iso_2.sys_id","label":"2 - Update Record➛Asset Profile Request Record➛Information Security Officer (ISO)➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"sys_user","column_name":"sys_id","usedInstances":{"a0794854-00ad-4e84-a1a1-04c528a8ff89":["information_security_offficer_iso"],"c799e13c-2615-443f-97e3-194f57169902":["information_security_offficer_iso"]}},{"name":"0abb4ac4-702e-4cba-85b7-4149d262530b.record","label":"1 - Create Record➛Asset Risk Evaluation Record","reference":"x_1440356_riskatla_asset_risk_evaluation","reference_display":"Asset Risk Evaluation","type":"reference","base_type":"reference","usedInstances":{"a0794854-00ad-4e84-a1a1-04c528a8ff89":["record"],"c799e13c-2615-443f-97e3-194f57169902":["record"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"0abb4ac4-702e-4cba-85b7-4149d262530b.record.sys_id","label":"1 - Create Record➛Asset Risk Evaluation Record➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"x_1440356_riskatla_asset_risk_evaluation","column_name":"sys_id","usedInstances":{"3bc9c80d-707e-4e50-be59-82e87962fbed":["u_arp_13"],"a0794854-00ad-4e84-a1a1-04c528a8ff89":["technical_information_security_officer","it_asset_owner_itao"],"c799e13c-2615-443f-97e3-194f57169902":["information_security_offficer_iso"]}},{"name":"0abb4ac4-702e-4cba-85b7-4149d262530b.record.number","label":"1 - Create Record➛Asset Risk Evaluation Record➛Number","reference":"","reference_display":"Number","type":"string","base_type":"string","parent_table_name":"x_1440356_riskatla_asset_risk_evaluation","column_name":"number","usedInstances":{"3bc9c80d-707e-4e50-be59-82e87962fbed":["u_arp_13"]}},{"name":"Created or Updated_1.current","label":"Trigger - Record Created or Updated➛Asset Profile Request Record","reference":"x_cdltd_asset_prof_asset_profile_request","reference_display":"Asset Profile Request","type":"reference","base_type":"reference","usedInstances":{"3bc9c80d-707e-4e50-be59-82e87962fbed":["record"],"0abb4ac4-702e-4cba-85b7-4149d262530b":["asset_id"]},"attributes":{}},{"name":"0abb4ac4-702e-4cba-85b7-4149d262530b.table_name","label":"1 - Create Record➛Asset Risk Evaluation Table","reference":"x_1440356_riskatla_asset_risk_evaluation","reference_display":"Asset Risk Evaluation","type":"table_name","base_type":"table_name","usedInstances":{"35af7955-a124-499e-8d0f-c6f9674bd2d7":["table"],"d42a3731-a98e-4f20-836f-c0a11925c357":["table_name"],"1ed0e6fb-c0e5-4c69-9c94-1e00358ee32e":["table"],"fc8250eb-f7c2-4edf-b9ed-f431eefbaa43":["table_name"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"3bc9c80d-707e-4e50-be59-82e87962fbed.record.sys_id","label":"2 - Update Record➛Asset Profile Request Record➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"x_cdltd_asset_prof_asset_profile_request","column_name":"sys_id","usedInstances":{"a0794854-00ad-4e84-a1a1-04c528a8ff89":["information_security_offficer_iso"]}},{"name":"0abb4ac4-702e-4cba-85b7-4149d262530b.record.assessment_status","label":"1 - Create Record➛Asset Risk Evaluation Record➛Assessment Status","reference":"","reference_display":"Assessment Status","type":"choice","base_type":"choice","parent_table_name":"x_1440356_riskatla_asset_risk_evaluation","column_name":"assessment_status","choices":[{"image":"","label":"Review Rejected","used":false,"rawLabel":"Review Rejected","selected":false,"missing":false,"reference":false,"value":"6","parameters":{"name":"x_1440356_riskatla_asset_risk_evaluation","dependent_values":[""]}},{"image":"","label":"Sign-Off Rejected","used":false,"rawLabel":"Sign-Off Rejected","selected":false,"missing":false,"reference":false,"value":"7","parameters":{"name":"x_1440356_riskatla_asset_risk_evaluation","dependent_values":[""]}},{"image":"","label":"Started","used":false,"rawLabel":"Started","selected":false,"missing":false,"reference":false,"value":"0","parameters":{"name":"x_1440356_riskatla_asset_risk_evaluation","dependent_values":[""]}},{"image":"","label":"In Progress","used":false,"rawLabel":"In Progress","selected":false,"missing":false,"reference":false,"value":"1","parameters":{"name":"x_1440356_riskatla_asset_risk_evaluation","dependent_values":[""]}},{"image":"","label":"Review Pending","used":false,"rawLabel":"Review Pending","selected":false,"missing":false,"reference":false,"value":"3","parameters":{"name":"x_1440356_riskatla_asset_risk_evaluation","dependent_values":[""]}},{"image":"","label":"Sign-Off Pending","used":false,"rawLabel":"Sign-Off Pending","selected":false,"missing":false,"reference":false,"value":"4","parameters":{"name":"x_1440356_riskatla_asset_risk_evaluation","dependent_values":[""]}},{"image":"","label":"Finished","used":false,"rawLabel":"Finished","selected":false,"missing":false,"reference":false,"value":"5","parameters":{"name":"x_1440356_riskatla_asset_risk_evaluation","dependent_values":[""]}}],"usedInstances":{"ff543723-590b-4663-8025-4aa12793856c":["condition"],"cd52cb0a-a848-4bb1-b8b3-d2bcbee94146":["condition"]}},{"name":"Created or Updated_1.current.u_asset_id_2","label":"Trigger - Record Created or Updated➛Asset Profile Request Record➛Asset ID","reference":"","reference_display":"Asset ID","type":"string","base_type":"string","parent_table_name":"x_cdltd_asset_prof_asset_profile_request","column_name":"u_asset_id_2","usedInstances":{"d42a3731-a98e-4f20-836f-c0a11925c357":["asset_id"],"fc8250eb-f7c2-4edf-b9ed-f431eefbaa43":["asset_id"]}},{"name":"0abb4ac4-702e-4cba-85b7-4149d262530b.record.sys_created_on","label":"1 - Create Record➛Asset Risk Evaluation Record➛Created","reference":"","reference_display":"Created","type":"glide_date_time","base_type":"glide_date_time","parent_table_name":"x_1440356_riskatla_asset_risk_evaluation","column_name":"sys_created_on","usedInstances":{}}]</label_cache>
         <master>true</master>
         <name>Create ARE</name>
         <natlang/>
@@ -542,7 +542,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>c7738db283fee2509cc1a730ceaad3ff</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>13</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -550,7 +550,7 @@
         <sys_scope display_value="RiskAtlas">65eecae6c3222210961432f1b4013189</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-07-21 08:04:31</sys_updated_on>
+        <sys_updated_on>2025-07-31 11:40:55</sys_updated_on>
         <type>flow</type>
         <version>2</version>
     </sys_hub_flow_snapshot>
@@ -634,14 +634,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-07-21 07:40:48</sys_created_on>
         <sys_id>1373cdb283fee2509cc1a730ceaad313</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>25</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="RiskAtlas">65eecae6c3222210961432f1b4013189</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-07-21 08:04:31</sys_updated_on>
+        <sys_updated_on>2025-07-31 11:40:55</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -718,14 +718,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-07-21 07:40:48</sys_created_on>
         <sys_id>4f73cdb283fee2509cc1a730ceaad300</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>25</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="RiskAtlas">65eecae6c3222210961432f1b4013189</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-07-21 08:04:31</sys_updated_on>
+        <sys_updated_on>2025-07-31 11:40:55</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -887,13 +887,13 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-07-21 07:40:49</sys_created_on>
         <sys_id>d373cdb283fee2509cc1a730ceaad31e</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_scope display_value="RiskAtlas">65eecae6c3222210961432f1b4013189</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-07-21 07:40:49</sys_updated_on>
+        <sys_updated_on>2025-07-30 09:56:50</sys_updated_on>
         <ui_id>0abb4ac4-702e-4cba-85b7-4149d262530b</ui_id>
         <updation_source/>
-        <values>H4sIAAAAAAAA/9VUTW/bMAz9K4HORiDHadDmVrTLaWuBdsilKwTaohNhsuxJcpos6H8fZctp0Db7AHZpbiQfyfdovTzsmZJszmYp8rOLdFZkaZZNOJ+cT9N8luXpRGaAOGUJM1AhIT3kGkUXJGwDug3JrUinU56dzYRV7jt4DQKcQ9+FAgMMvKoNtUjlGg27Zey8DLDRHcFGn45hxVppadGw+cNjwhqwtNCjZfP9q9Lf0teQoybo18D/hBy/a97NfT7uHd30hdrKwIcnDLcejUQiUoJ2mLAKjARf2x2be9tSwiLIW6N3B8RaGU8DWcBunfpJa895wJVIygrsa4dQxKv16fIaPNzT5MK3NkKLda0KdP1NJJbQan91nOsBt013366lkxm7a91W5qY/CTsMGD4SZVpHJLAJOgPzKKO8X9dPdwPLhTLdSWJR1wXoQwTeW5W3PvDZM9RY0SBRQdMosxKNrTeqayYu1XilKRiXun6ipU6tzBiKQHxMZ4XxgvLXXXoJVgUVX2gMNT8nzO3claa396KFjih+tIFJryxqEP0ZQkthVeMvacEGI93nZPCFRH5x8mGl+ctD6qzgjjwRDOBcp9J58K371nKeSf7WA79B/qMN/sx2sMFCoZbuHfqDB7Aiih5FL+eVD2JxtIzF6IX0f3khnfHu94Ec0Yv78IY4+u87YY3HXxwh4hE0BgAA</values>
+        <values>H4sIAAAAAAAA/9VUTW8aMRD9KyufV6vdLEEJt4iUU5tIScslTazZ9SxY9X7U9hIo4r93vDYEpUFtpVzCCc+8Gb/38ONhy6RgEzbOMD2/zMZlnuX5WZqeXYyyYpwX2ZnIAXHEYtZAjYS0UCjkwyFmK1C9K655Nhql+fmYa2l+gFXAwRi0w5Gjg4GVbUMjQppOwWYeJq8cLLojWPTpGFYupRIaGzZ5eIxZB5outKjZZPuq9a/0FRSoCPrV8T8hx266N2ufj2ejG99otXB80pjh2mIjkIhUoAzGrIZGgG31hk2s7qmgEcRtozYHxFI2lhYyh10b+YuuvUgdrkJSVqLvHY48uObL1TVYuKfNpe11gJbLVpZovCcCK+iVnR7XPOC2G/wdRgaZYbpVfd3ceEvYYcH+R6JKb4gEdk6nYx5kVPfL9vluz3Imm8GS0FRtCepwAmu1LHrr+GwZKqxpEa+h62Sz4J1uV3IYJi51slB0SCrVPtOlRi6aBEpHPCFbIZlR/Xooz0FLp+ILraHhXczMxkwVvb0XLWQi/9k7Jl5Z0MC9DW6k1LKzV3TBCgPdXbzPhcD08uTDyoqXhzREwRxlwgXAmEGlsWB7871P01ykTz4ZUvjzdjul12FRRK2OvnXCfeVZUvaaPLW73Z+Reb/F/xmyv3uxD9lMohLmDXP2CcOaFFnk3qxXKQvNaB6aIWnZeyUtG6fD5wPlzYv78HE7+mc9EbzH328c/aCSBgAA</values>
     </sys_hub_action_instance_v2>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=d373cdb283fee2509cc1a730ceaad31e"/>
     <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=c7738db283fee2509cc1a730ceaad3ff"/>
@@ -981,17 +981,17 @@
         <binding_strategy>com.snc.process_flow.engine.binding.OncePerRecord</binding_strategy>
         <plan>{"type":"PlanProxy","persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"5773cdb283fee2509cc1a730ceaad337","name":"plan","plan_signature":null}}</plan>
         <plan_id>c3b3663d83b6ee109cc1a730ceaad3d6</plan_id>
-        <snapshot>ec3941fa83fee2509cc1a730ceaad3fa</snapshot>
+        <snapshot>db1b1dca8383e6109cc1a730ceaad3de</snapshot>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-07-21 07:40:49</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>5773cdb283fee2509cc1a730ceaad337</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>11</sys_mod_count>
         <sys_overrides/>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-07-21 08:04:32</sys_updated_on>
+        <sys_updated_on>2025-07-31 11:40:55</sys_updated_on>
         <trigger display_value="">1773cdb283fee2509cc1a730ceaad335</trigger>
     </sys_flow_trigger_plan>
     <sys_flow_subflow_plan action="delete_multiple" query="plan_id=c3b3663d83b6ee109cc1a730ceaad3d6"/>

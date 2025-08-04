@@ -10,19 +10,19 @@
             </choice>
         </element>
         <element label="Describe the most representative scenerio/situation for Availability Breach" max_length="4000" name="describe_the_most_representative_scenerio_situation_for_availability_breach" type="string"/>
-        <element choice="3" choice_field="confidentiality_criticality" choice_table="x_1440356_riskatla_asset_risk_evaluation" label="Integrity Criticality" max_length="40" name="integrity_criticality" type="choice">
+        <element choice="3" choice_field="confidentiality_criticality" choice_table="x_1440356_riskatla_asset_risk_evaluation" default="2" label="Integrity Criticality" max_length="40" name="integrity_criticality" type="choice">
             <choice>
-                <element inactive_on_update="false" label="Medium" sequence="1" value="medium"/>
-                <element inactive_on_update="false" label="Low" sequence="2" value="low"/>
-                <element inactive_on_update="false" label="High" sequence="0" value="high"/>
+                <element inactive_on_update="false" label="Medium" sequence="3" value="2"/>
+                <element inactive_on_update="false" label="Low" sequence="2" value="3"/>
+                <element inactive_on_update="false" label="High" sequence="1" value="1"/>
             </choice>
         </element>
         <element label="Information Security Risk Analyst (ISRA)" max_length="32" name="information_security_risk_analyst_isra" reference="sys_user" type="reference"/>
-        <element choice="1" label="Availability Criticality" max_length="40" name="availability_criticality" type="choice">
+        <element choice="1" default="2" label="Availability Criticality" max_length="40" name="availability_criticality" type="choice">
             <choice>
-                <element inactive_on_update="false" label="High" sequence="1" value="high"/>
-                <element inactive_on_update="false" label="Low" sequence="3" value="low"/>
-                <element inactive_on_update="false" label="Medium" sequence="2" value="medium"/>
+                <element inactive_on_update="false" label="High" sequence="1" value="1"/>
+                <element inactive_on_update="false" label="Low" sequence="3" value="3"/>
+                <element inactive_on_update="false" label="Medium" sequence="2" value="2"/>
             </choice>
         </element>
         <element label="Due Date" max_length="40" name="due_date" read_only="true" type="glide_date"/>
@@ -46,7 +46,13 @@
         <element attributes="edge_encryption_enabled=true" label="Describe the most representative scenerio/situation for Integrity Breach" max_length="4000" name="u_string_3" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Describe the most representative scenerio/situation for Confidentiality Breach" max_length="4000" name="u_string_2" type="string"/>
         <element choice="1" choice_field="integrity_regulatory_impact" choice_table="x_1440356_riskatla_asset_risk_evaluation" label="Availability Market Impact" max_length="40" name="availability_market_impact" type="choice">
-            <choice/>
+            <choice>
+                <element inactive_on_update="false" label="Medium" sequence="3" value="Medium"/>
+                <element inactive_on_update="false" label="Low" sequence="4" value="Low"/>
+                <element inactive_on_update="false" label="Acute" sequence="0" value="Acute"/>
+                <element inactive_on_update="false" label="Severe" sequence="1" value="Severe"/>
+                <element inactive_on_update="false" label="High" sequence="2" value="High"/>
+            </choice>
         </element>
         <element label="Reviewer Assessment Comments" max_length="255" name="reviewer_assessment_comments" type="string_full_utf8"/>
         <element label="Testing Commit" max_length="40" name="testing_commit" type="string"/>
@@ -70,11 +76,11 @@
         <element default="Purpose of Assessment" function_definition="Purpose of Assessment" label="Purpose of Assessment" max_length="255" name="purpose_of_assessment" read_only="true" type="string_full_utf8"/>
         <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
         <element label="test" max_length="65536" name="test" type="html"/>
-        <element choice="3" label="Confidentiality Criticality" max_length="40" name="confidentiality_criticality" type="choice">
+        <element choice="3" default="2" label="Confidentiality Criticality" max_length="40" name="confidentiality_criticality" type="choice">
             <choice>
-                <element inactive_on_update="false" label="Medium" sequence="1" value="Medium"/>
-                <element inactive_on_update="false" label="High" sequence="0" value="High"/>
-                <element inactive_on_update="false" label="Low" sequence="2" value="Low"/>
+                <element inactive_on_update="false" label="Medium" sequence="2" value="2"/>
+                <element inactive_on_update="false" label="High" sequence="1" value="1"/>
+                <element inactive_on_update="false" label="Low" sequence="3" value="3"/>
             </choice>
         </element>
         <element attributes="edge_encryption_enabled=true" label="Describe the most representative scenerio/situation for Confidentiality Breach" max_length="255" name="u_string_full_utf8_1" type="string_full_utf8"/>
@@ -100,7 +106,13 @@
             </choice>
         </element>
         <element choice="1" choice_field="integrity_reputational_impact" choice_table="x_1440356_riskatla_asset_risk_evaluation" label="Availability Regulatory Impact" max_length="40" name="availability_regulatory_impact" type="choice">
-            <choice/>
+            <choice>
+                <element inactive_on_update="false" label="High" sequence="2" value="High"/>
+                <element inactive_on_update="false" label="Medium" sequence="3" value="Medium"/>
+                <element inactive_on_update="false" label="Acute" sequence="0" value="Acute"/>
+                <element inactive_on_update="false" label="Low" sequence="4" value="Low"/>
+                <element inactive_on_update="false" label="Severe" sequence="1" value="Severe"/>
+            </choice>
         </element>
         <element choice="1" label="Integrity Financial Impact" max_length="40" name="integrity_financial_impact" type="choice">
             <choice>
@@ -112,7 +124,13 @@
             </choice>
         </element>
         <element choice="1" choice_field="integrity_reputational_impact" choice_table="x_1440356_riskatla_asset_risk_evaluation" label="Availability Client Impact" max_length="40" name="availability_client_impact" type="choice">
-            <choice/>
+            <choice>
+                <element inactive_on_update="false" label="Acute" sequence="0" value="Acute"/>
+                <element inactive_on_update="false" label="Severe" sequence="1" value="Severe"/>
+                <element inactive_on_update="false" label="High" sequence="2" value="High"/>
+                <element inactive_on_update="false" label="Medium" sequence="3" value="Medium"/>
+                <element inactive_on_update="false" label="Low" sequence="4" value="Low"/>
+            </choice>
         </element>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Confidentiality Reputional Impact" max_length="40" name="con_rep_impact" type="string">
             <choice>
@@ -133,7 +151,7 @@
             </choice>
         </element>
         <element label="Integrity Rating" max_length="32" name="integrity_rating" reference="x_cdltd_asset_prof_asset_profile_request" type="reference"/>
-        <element label="Asset ID" max_length="32" name="asset_id" reference="x_cdltd_asset_prof_asset_profile_request" type="reference"/>
+        <element label="Asset ID" max_length="32" name="asset_id" read_only="true" reference="x_cdltd_asset_prof_asset_profile_request" type="reference"/>
         <element choice="1" label="Integrity Client Impact" max_length="255" name="integrity_client_impact" type="radio">
             <choice>
                 <element inactive_on_update="false" label="Low" sequence="4" value="Low"/>
